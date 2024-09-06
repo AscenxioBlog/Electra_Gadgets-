@@ -4,13 +4,15 @@ import IndexComponent from './UI/HomeComponent/IndexComponent';
 import ProductComponent from './UI/ProductComponent/ProductComponent';
 import AboutComponent from './UI/AboutComponent/AboutComponent';
 import ServiceComponent from './UI/ServiceComponent/ServiceComponent';
+import HeaderComponent from './ConstantComponent/HeaderComponent/HeaderComponent';
+import ContactComponent from './UI/ContactComponent/ContactComponent';
 
 
 function Container() {
   return (
     <div>
       <BrowserRouter>
-      
+          <HeaderComponent/>
       <Routes>
         {/* <AboutComponent/>ient */}
         {/* <Route path='/' element={}/> */}
@@ -18,6 +20,7 @@ function Container() {
         <Route path='/product' element={<ProductComponent/>}/>
         <Route path='/about' element={<AboutComponent/>}/>
         <Route path='/service' element={<ServiceComponent/>}/>
+        <Route path='/contact' element={<ContactComponent/>}/>
 
       </Routes>
       

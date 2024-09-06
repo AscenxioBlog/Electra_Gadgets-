@@ -2,7 +2,7 @@ import React from 'react'
 
 function ServiceComponent() {
   return (
-    <div>ServiceComponent</div>
+    <div className=' h-[100vh] w-full bg-teal-950'>ServiceComponent</div>
   )
 }
 
