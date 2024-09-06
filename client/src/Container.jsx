@@ -14,8 +14,7 @@ function Container() {
       <BrowserRouter>
           <HeaderComponent/>
       <Routes>
-        {/* <AboutComponent/>ient */}
-        {/* <Route path='/' element={}/> */}
+        
         <Route path='/' element={<IndexComponent/>}/>
         <Route path='/product' element={<ProductComponent/>}/>
         <Route path='/about' element={<AboutComponent/>}/>
