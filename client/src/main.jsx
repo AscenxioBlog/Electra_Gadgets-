@@ -4,8 +4,8 @@ import Container from './Container'
 import './index.css'
 
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+const root = ReactDom.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <Container />
-  </StrictMode>,
+  </React.StrictMode>,
 )
