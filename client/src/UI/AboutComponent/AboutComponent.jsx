@@ -11,6 +11,6 @@ function AboutComponent() {
 
     </div>
   )
-}
+} 
 
 export default AboutComponent
