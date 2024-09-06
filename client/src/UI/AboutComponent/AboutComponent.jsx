@@ -4,7 +4,7 @@ import AboutSecondComponent from './AboutSecondComponent'
 
 function AboutComponent() {
   return (
-    <div>
+    <div className=' h-[100vh] w-full  bg-red-800'>
 
       <AboutFirstComponent/>
       <AboutSecondComponent/>
