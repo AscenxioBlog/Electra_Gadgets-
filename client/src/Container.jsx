@@ -11,14 +11,6 @@ function Container() {
   return (
     <div>
       <BrowserRouter>
-<<<<<<< HEAD
-        <Routes>
-          <Route path='/' element={<IndexComponent />} />
-          <Route path='/product' element={<ProductComponent />} />
-          <Route path='/about' element={<AboutComponent />} />
-          <Route path='/service' element={<ServiceComponent />} />
-        </Routes>
-=======
           <HeaderComponent/>
       <Routes>
         {/* <AboutComponent/>ient */}
@@ -31,7 +23,6 @@ function Container() {
 
       </Routes>
       
->>>>>>> bed29155d1a4961d0a4035c8d142df485a6e6447
       </BrowserRouter>
     </div>
   );
