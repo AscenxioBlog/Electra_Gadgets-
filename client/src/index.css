@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.aboutH{
+    background-image: url(UI/AboutComponent/headpictures.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+}
