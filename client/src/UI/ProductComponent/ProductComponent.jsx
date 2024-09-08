@@ -1,9 +1,12 @@
 import React from 'react'
+import ProductsFirstComponet from './ProductsFirstComponet'
+import ProductsSecondComponent from './ProductsSecondComponent'
 
 function ProductComponent() {
   return (
-    <div className=' '>
-      
+    <div>
+           <ProductsFirstComponet/>  
+           <ProductsSecondComponent/>
     </div>
   )
 }
