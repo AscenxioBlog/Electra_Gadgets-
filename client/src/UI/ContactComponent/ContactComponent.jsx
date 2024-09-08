@@ -4,7 +4,7 @@ function ContactComponent() {
   return (
 
 
-    <div className=' h-[100vh] w-full bg-amber-950'>ContactComponent</div>
+    <div className=' '>ContactComponent</div>
 
   )
 }

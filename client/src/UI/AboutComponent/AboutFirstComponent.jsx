@@ -3,13 +3,11 @@ import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponen
 
 function AboutFirstComponent() {
   return (
-    <div>
-      <CustomButton
-      
-      height = '40px'
-      width = '150px'
-      backgroundColor = 'red'
-      />
+    <div className='bg-[yellow] h-[100px] w-full mt-[100px]'>
+      <h1>
+        hello world gghhhh
+      </h1>
+
     </div>
   )
 }
