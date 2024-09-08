@@ -2,7 +2,11 @@ import React from 'react'
 
 function ProductsFirstComponet() {
   return (
-    <div>ProductsFirstComponet</div>
+    <div>
+        <h1>
+            This IS products
+        </h1>
+    </div>
   )
 }
 
