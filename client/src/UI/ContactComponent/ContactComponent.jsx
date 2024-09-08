@@ -2,7 +2,10 @@ import React from 'react'
 
 function ContactComponent() {
   return (
-    <div>ContactComponent</div>
+
+
+    <div className=' '>ContactComponent</div>
+
   )
 }
 

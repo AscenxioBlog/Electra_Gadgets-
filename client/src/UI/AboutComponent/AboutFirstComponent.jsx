@@ -4,12 +4,7 @@ import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponen
 function AboutFirstComponent() {
   return (
     <div>
-      <CustomButton
-      
-      height = '40px'
-      width = '150px'
-      backgroundColor = 'red'
-      />
+
     </div>
   )
 }

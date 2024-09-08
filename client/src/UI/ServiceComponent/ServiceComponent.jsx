@@ -2,7 +2,7 @@ import React from 'react'
 
 function ServiceComponent() {
   return (
-    <div>ServiceComponent</div>
+    <div className=''>ServiceComponent</div>
   )
 }
 
