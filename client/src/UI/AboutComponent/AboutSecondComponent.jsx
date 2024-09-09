@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutSecondComponent() {
   return (
-    <div className='h-[200px] w-full mt-[30px] lg:w-[80%] lg:translate-x-[147px] text-start'>
+    <div className='h-[500px] w-full mt-[30px] lg:h-[270px] lg:w-[80%] lg:translate-x-[147px] md:h-[270px] text-start'>
 
       <div className=' lg:flex lg:items-center lg:gap-[20px] md:flex md:items-center md:gap-[20px] p-[10px] box-border'>
 
