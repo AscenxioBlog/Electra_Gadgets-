@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         MainBg: '#478CCF',  // Replace with your custom color
+        btncolo: '#FABC3F',
         customBlue: {
           light: '#85d7ff',
           DEFAULT: '#1fb6ff',
