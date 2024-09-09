@@ -8,3 +8,24 @@
     background-size: 100% 100%;
     background-attachment: scroll;
 }
+
+
+
+/* BEGINING OF CONTACT COMPONENT STYLING */
+.first{
+    background-image: url(Contactpictures/pics1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #fabc3f82;
+    background-blend-mode: darken;
+    
+}
+
+
+
+
+/* THE END OF CONTACT COMPONENT STYLING */
+
+
+
+
