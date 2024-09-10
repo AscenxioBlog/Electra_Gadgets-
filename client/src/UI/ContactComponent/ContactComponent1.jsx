@@ -8,9 +8,9 @@ function ContactComponent1() {
           <h1>CONTACT US</h1>
         </div>
         <div className=" flex gap-3">
-            <section className=' h-[3px] w-[20px] bg-MainBg' style={{borderTopLeftRadius:'10px', borderBottomLeftRadius: '10px'}}></section>
-            <section className=' h-[3px] w-[70px] bg-MainBg'></section>
-            <section className=' h-[3px] w-[20px] bg-MainBg' style={{borderBottomRightRadius: ' 10px', borderTopRightRadius: '10px'}}></section>
+            <section className=' h-[2px] w-[20px] bg-MainBg' style={{borderTopLeftRadius:'10px', borderBottomLeftRadius: '10px'}}></section>
+            <section className=' h-[2px] w-[70px] bg-MainBg'></section>
+            <section className=' h-[2px] w-[20px] bg-MainBg' style={{borderBottomRightRadius: ' 10px', borderTopRightRadius: '10px'}}></section>
         </div>
         <div className=" w-full flex flex-col items-center space-y-4 mt-4 text-white text-[18px]">
           <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debiti magni facere.</span>
