@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
 .aboutH{
     background-image: url(UI/AboutComponent/Aboutpictures/headpictures.jpg);
     background-repeat: none;
@@ -20,7 +25,20 @@
     background-blend-mode: darken;
     
 }
+.bb{
+    border: 2px solid #cccccc;
+    padding-left: 10px;
+    
+}
+.bb:focus{
+    border: 2px solid #478CCF;
 
+    
+}
+
+.cc:hover{
+    box-shadow:0 0 10px #478CCF;
+}
 
 
 
