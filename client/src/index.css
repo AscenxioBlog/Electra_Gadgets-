@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* PRODUCT..... PRODUCT LIST  HOVER STYLING */
 .HoverPopular-Product{
     transition: 1s;
@@ -12,3 +11,47 @@
 .popular-productHove:hover .HoverPopular-Product{
     opacity: 1;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.aboutH{
+    background-image: url(UI/AboutComponent/Aboutpictures/headpictures.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+    /* background-attachment: scroll; */
+
+
+
+/* BEGINING OF CONTACT COMPONENT STYLING */
+.first{
+    background-image: url(Contactpictures/pics1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-color: #fabc3f82;
+    background-blend-mode: darken;
+    
+}
+.bb{
+    border: 2px solid #cccccc;
+    padding-left: 10px;
+    
+}
+.bb:focus{
+    border: 2px solid #478CCF;
+
+    
+}
+
+.cc:hover{
+    box-shadow:0 0 10px #478CCF;
+}
+
+
+
+/* THE END OF CONTACT COMPONENT STYLING */
