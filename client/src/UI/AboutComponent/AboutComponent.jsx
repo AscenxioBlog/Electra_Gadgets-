@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutFirstComponent from './AboutFirstComponent'
 import AboutSecondComponent from './AboutSecondComponent'
+import AboutThirdComponent from './AboutThirdComponent'
 
 function AboutComponent() {
   return (
@@ -8,6 +9,7 @@ function AboutComponent() {
 
       <AboutFirstComponent/>
       <AboutSecondComponent/>
+      <AboutThirdComponent/>
 
     </div>
   )
