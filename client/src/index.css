@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* PRODUCT..... PRODUCT LIST  HOVER STYLING */
+.HoverPopular-Product{
+    transition: 1s;
+    opacity: 0;
+}
+
+.popular-productHove:hover .HoverPopular-Product{
+    opacity: 1;
+}
