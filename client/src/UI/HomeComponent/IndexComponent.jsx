@@ -3,7 +3,7 @@ import IndexComponent1 from './IndexComponent1'
 
 function IndexComponent() {
   return (
-    <div className='h-[100vh] w-full bg-slate-500'>
+    <div className=' '>
       <IndexComponent1/>
     </div>
   )

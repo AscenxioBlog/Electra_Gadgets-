@@ -8,6 +8,7 @@ function CustomButton(props) {
         backgroundColor: props.backgroundColor,
         borderRadius: props.borderRadius,
         label: props.label,
+        // className: props.className
         color: props.color || 'black',
         border: props.border || 'none',
         cursor: 'pointer',
@@ -15,9 +16,10 @@ function CustomButton(props) {
         marginTop: props.marginTop
 
     }
+
   return (
     <div>
-        <button style={btnStyle} onClick={props.onClick}>{props.label}</button>
+        <button className={props.className}  style={btnStyle} onClick={props.onClick}>{props.label}</button>
     </div>
   )
 }
