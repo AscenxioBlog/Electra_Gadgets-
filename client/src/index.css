@@ -58,3 +58,14 @@
 
 
 /* THE END OF CONTACT COMPONENT STYLING */
+
+
+/* BEGINING OF SERVICE COMPONENT STYLING */
+
+.service{
+    background-color: #478CCF;
+    background-image: url(ServicePictures/firstpics.jpg);
+    background-size: 100% 100%;
+}
+
+/* END OF SERVICE COMPONENT STYLING */
