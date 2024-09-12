@@ -17,7 +17,6 @@ function    AboutThirdComponent() {
       slidesPerView={1}
       onSlideChange={()=> console.log('slide change')}
       onSwiper={()=> console.log(Swiper)}
-      // height={'400px'}
       // navigation
       pagination={{clickable:true}}
       // scrollbar={{draggable: false}}
