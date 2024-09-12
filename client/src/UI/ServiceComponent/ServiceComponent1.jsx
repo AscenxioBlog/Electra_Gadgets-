@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ContactComponent1() {
+function ServiceComponent1() {
   return (
-    <div className=' first h-[130vh] w-full flex justify-center items-center '>
-      <div className=" h-[300px] w-[80%] bg-[] flex flex-col items-center justify-center">
+    <div className='service h-[130vh] w-full flex justify-center items-center '>
+       <div className=" h-[300px] w-[80%] bg-[] flex flex-col items-center justify-center">
         <div className=" text-[25px] md:text-[30px] lg:text-[40px] font-extrabold text-white">
           <h1>CONTACT US</h1>
         </div>
@@ -19,10 +19,8 @@ function ContactComponent1() {
         </div>
       </div>
         
-        
-      
     </div>
   )
 }
 
-export default ContactComponent1
+export default ServiceComponent1

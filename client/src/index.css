@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* PRODUCT..... PRODUCT LIST  HOVER STYLING */
+.HoverPopular-Product{
+    transition: 1s;
+    opacity: 0;
+}
+
+.popular-productHove:hover .HoverPopular-Product{
+    opacity: 1;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+/* THIS IS THE BEGINING OF ABOUT COMPONENT STYLING */
 .aboutH{
     background-image: url(UI/AboutComponent/Aboutpictures/headpictures.jpg);
     background-repeat: none;
@@ -9,6 +25,7 @@
     background-attachment: fixed;
     
 }
+<<<<<<< HEAD
 .slidee{
     background-image: url(UI/AboutComponent/Aboutpictures/subnav1.jpg);
     background-repeat: none;
@@ -24,6 +41,9 @@
     background-repeat: none;
     background-size: 100% 100%;
 }
+=======
+/* THIS IS THE END OF ABOUT COMPONENT STYLING */
+>>>>>>> ec2a8a54e98bf798b5fd7a5e91b80450b80d8256
 
     /* background-attachment: scroll; */
 
@@ -38,12 +58,32 @@
     background-blend-mode: darken;
     
 }
+.bb{
+    border: 2px solid #cccccc;
+    padding-left: 10px;
+    
+}
+.bb:focus{
+    border: 2px solid #478CCF;
 
+    
+}
+
+.cc:hover{
+    box-shadow:0 0 10px #478CCF;
+}
 
 
 
 /* THE END OF CONTACT COMPONENT STYLING */
 
 
+/* BEGINING OF SERVICE COMPONENT STYLING */
 
+.service{
+    background-color: #478CCF;
+    background-image: url(ServicePictures/firstpics.jpg);
+    background-size: 100% 100%;
+}
 
+/* END OF SERVICE COMPONENT STYLING */

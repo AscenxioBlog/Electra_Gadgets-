@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { FaCartPlus } from "react-icons/fa6";
+import { FaUserPlus } from "react-icons/fa6";
 
 function HeaderComponent() {
   return (
@@ -7,7 +9,7 @@ function HeaderComponent() {
         <div className='h-[70px] bg-[white] z-30 grid grid-cols-2 fixed top-0 w-[100%] md:grid-cols-2 lg:h-[70px] lg:grid-cols-4 lg:flex lg:items-center justify-between'>
                <div className='text-[30px] gap-2 p-[20px] text-[#FD282A] flex items-center md:text-[40px] md:ml-[30px] '>
                     <i class="fa-solid fa-cart-shopping"></i>
-                    <span className='text-[black] text-[30px] font-bold md:text-[40px] lg:text-3xl'>EleStore</span>
+                    <span className='text-[black] text-[30px] font-bold md:text-[40px] lg:text-3xl'>Electra_Gadget</span>
                </div>
 
                <div className='font-medium text-[17px] hidden lg:inline-block'>
@@ -23,9 +25,9 @@ function HeaderComponent() {
                <div className='text-[40px] mt-5 ml-[140px] inline-block md:text-[40px] md:ml-80 lg:hidden'><i class="fa-solid fa-bars"></i></div>
 
                <div className='hidden gap-[40px] lg:flex lg:items-center lg:justify-center lg:pr-[70px]'>
-                   <div className='bg-[#F1F1F1] h-[50px] w-[50px] rounded-[50%] flex justify-center items-center hover:bg-[#fd282ca4]'><i class="fa-solid fa-user"></i></div>
+                   <div className='bg-[#F1F1F1] h-[50px] w-[50px] rounded-[50%] flex justify-center items-center hover:bg-[#fd282ca4]'><FaUserPlus /></div>
                    <div className='bg-[#F1F1F1] rounded-[50%] h-[50px] w-[50px] flex justify-center items-center'><i class="fa-regular fa-heart"></i></div>
-                   <div className='bg-[#F1F1F1] rounded-[50%] h-[50px] w-[50px] flex justify-center items-center'><i class="fa-solid fa-cart-shopping"></i></div>
+                   <div className='bg-[#F1F1F1] rounded-[50%] h-[50px] w-[50px] flex justify-center items-center'><FaCartPlus /></div>
                </div>
            </div>
     </div>
