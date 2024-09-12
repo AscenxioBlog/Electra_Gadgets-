@@ -2,21 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* PRODUCT..... PRODUCT LIST  HOVER STYLING */
-.HoverPopular-Product{
-    transition: 1s;
-    opacity: 0;
-}
-
-.popular-productHove:hover .HoverPopular-Product{
-    opacity: 1;
-}
-
 *{
     padding: 0;
     margin: 0;
     outline: 0;
 }
+
+/* PRODUCT..... PRODUCT LIST  HOVER STYLING */
+/* .Popular-Product{
+    transition: 1s;
+    opacity: 0;
+}
+
+.cartView:hover .Popular-Product{
+    opacity: 1;
+} */
+
 .aboutH{
     background-image: url(UI/AboutComponent/Aboutpictures/headpictures.jpg);
     background-repeat: none;
