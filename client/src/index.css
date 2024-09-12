@@ -17,6 +17,7 @@
     margin: 0;
     outline: 0;
 }
+/* THIS IS THE BEGINING OF ABOUT COMPONENT STYLING */
 .aboutH{
     background-image: url(UI/AboutComponent/Aboutpictures/headpictures.jpg);
     background-repeat: none;
@@ -24,6 +25,8 @@
     background-attachment: fixed;
     
 }
+/* THIS IS THE END OF ABOUT COMPONENT STYLING */
+
     /* background-attachment: scroll; */
 
 
