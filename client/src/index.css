@@ -10,6 +10,7 @@
 
 /* PRODUCT..... PRODUCT LIST  HOVER STYLING */
 /* .Popular-Product{
+.HoverPopular-Product{
     transition: 1s;
     opacity: 0;
 }
@@ -18,6 +19,12 @@
     opacity: 1;
 } */
 
+.popular-productHove:hover .HoverPopular-Product{
+    opacity: 1;
+}
+
+
+/* THIS IS THE BEGINING OF ABOUT COMPONENT STYLING */
 .aboutH{
     background-image: url(UI/AboutComponent/Aboutpictures/headpictures.jpg);
     background-repeat: none;
@@ -25,8 +32,23 @@
     background-attachment: fixed;
     
 }
-    /* background-attachment: scroll; */
+.slidee{
+    background-image: url(UI/AboutComponent/Aboutpictures/subnav1.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+}
+.slidee2{
+    background-image: url(UI/AboutComponent/Aboutpictures/subnav2.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+}
+.slidee3{
+    background-image: url(UI/AboutComponent/Aboutpictures/subnav3.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+}
 
+/* /* THIS IS THE END OF ABOUT COMPONENT STYLING */
 
 
 /* BEGINING OF CONTACT COMPONENT STYLING */
@@ -56,3 +78,14 @@
 
 
 /* THE END OF CONTACT COMPONENT STYLING */
+
+
+/* BEGINING OF SERVICE COMPONENT STYLING */
+
+.service{
+    background-color: #478CCF;
+    background-image: url(ServicePictures/firstpics.jpg);
+    background-size: 100% 100%;
+}
+
+/* END OF SERVICE COMPONENT STYLING */
