@@ -58,10 +58,10 @@ function ProductsFirstComponet() {
          <div className='min-h-[100vh] bg-[#FFFF] mt-16'>
             <div className='h-[30px] p-[70px] text-[gray] text-[12px] font-medium flex justify-start items-center'>
                 <ul className='ml-8 flex gap-3'>
-                    <li className='hover:text-[green]'><Link>HOME</Link></li>
-                    <li  className='hover:text-[green]'><Link>ACCESORIES</Link></li>
-                    <li  className='hover:text-[green]'><Link>GADGETS</Link></li>
-                    <li  className='hover:text-[green]'><Link>SPORTS GADGETS</Link></li>
+                    <li className='hover:text-MainBg'><Link>HOME</Link></li>
+                    <li  className='hover:text-MainBg'><Link>ACCESORIES</Link></li>
+                    <li  className='hover:text-MainBg'><Link>GADGETS</Link></li>
+                    <li  className='hover:text-MainBg'><Link>SPORTS GADGETS</Link></li>
 
                 </ul>
             </div>

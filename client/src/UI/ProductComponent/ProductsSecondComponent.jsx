@@ -122,15 +122,15 @@ function ProductsSecondComponent() {
 
                         
                           <div className='font-medium text-[11px] text-[gray] mt-3 grid grid-cols-1 md:grid md:grid-cols-3 lg:grid lg:grid-cols-3'>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>SMARTPHONES</Link>
-                               <Link  className=' flex items-center hover:text-[#B4CE20]'>WIRELESS</Link>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>CASES</Link>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>PROFESSIONAL</Link>
-                               <Link className='flex items-center hover:text-[#B4CE20]'>NEW</Link>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>BRANDS</Link>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>GADGETS</Link>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>REPLACEMENT</Link>
-                               <Link className=' flex items-center hover:text-[#B4CE20]'>HEADPHONES</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>SMARTPHONES</Link>
+                               <Link  className=' flex items-center hover:text-MainBg'>WIRELESS</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>CASES</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>PROFESSIONAL</Link>
+                               <Link className='flex items-center hover:text-MainBg'>NEW</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>BRANDS</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>GADGETS</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>REPLACEMENT</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>HEADPHONES</Link>
                           </div>
                       </div>
 
@@ -139,7 +139,7 @@ function ProductsSecondComponent() {
                  <div className='h-[80vh] w-[88%] gap-12 mt-5 grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                   {products.map((product) => (
                     <div key={product.id} className='h-[430px] w-[250px] border-l-[.2px]  border-[#8080802f] relative cartView'>
-                        <h1 className='ml-[27px] text-[12px] font-medium text-[#B4CE20] mt-6'>{product.category}</h1>
+                        <h1 className='ml-[27px] text-[12px] font-medium text-MainBg mt-6'>{product.category}</h1>
 
                         <h1 className='font-bold text-[14px] ml-[27px] '>{product.name}</h1>
 
@@ -162,9 +162,11 @@ function ProductsSecondComponent() {
                   </div>
                   ))}
 
+
+                     <div className='h-12 w-[900px] bg-green-400'></div> 
+
                   </div>
          </div>
-                
     </div>
   )
 }
