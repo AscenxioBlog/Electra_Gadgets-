@@ -19,7 +19,7 @@ function ProductsSecondComponent() {
       category: "SMART PHONES",
       price: 630.00,
       Image: "http://unionagency.one/exzo/img/product-41.jpg",
-       details: "Mollis nec consequat at in feugiat  mole stie tortor"
+      details: "Mollis nec consequat at in feugiat  mole stie tortor",
     },
 
     {

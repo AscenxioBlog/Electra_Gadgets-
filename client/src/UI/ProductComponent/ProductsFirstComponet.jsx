@@ -66,7 +66,7 @@ function ProductsFirstComponet() {
                 </ul>
             </div>
 
-
+            
             <div className='min-h-[480px] grid grid-cols-[25%,75%]'>
                 <div className='h-[450px] w-[250px] font-bold text-[11px] text-[gray] grid grid-rows-10 lg:ml-[86px]'>
                           <div>
