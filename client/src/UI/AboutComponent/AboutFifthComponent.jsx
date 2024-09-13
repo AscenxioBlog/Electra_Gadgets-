@@ -10,14 +10,16 @@ import subnav2 from './Aboutpictures/subnav2.jpg'
 import subnav3 from './Aboutpictures/subnav3.jpg'
 
 
-      // We needed a slider so we imported react swiper slider 
-function    AboutThirdComponent() {
+        // This component is for the large screen 
+
+
+function    AboutFifthComponent() {
   return (
-    <div className=' md:hidden   w-full mt-[30px] '>
+    <div className=' hidden md:hidden lg:block  w-[80%] lg:translate-x-[140px] mt-[30px] '>
       <Swiper 
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={100}
-      slidesPerView={1}
+      spaceBetween={50}
+      slidesPerView={3}
       onSlideChange={()=> console.log('slide change')}
       onSwiper={()=> console.log(Swiper)}
       // navigation
@@ -27,11 +29,11 @@ function    AboutThirdComponent() {
       
         <SwiperSlide>
               <div className=" h-[430px] w-full  box-border p-3">
-                <div className=" h-[270px] w-full rounded-[15px] overflow-hidden ">
+                <div className=" h-[240px] w-full rounded-[15px] overflow-hidden ">
                   <img src={subnav1} height='100%'  width='100%' alt="" />
                 </div>
-                <div className='min-h-[10px] w-full mt-1 text-center p-3 box-border'>
-                <h2 className=' font-bold text-1xl'>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <div className='min-h-[10px] w-full text-center p-3 box-border'>
+                <h2 className=' font-bold text-[14px]'>PHASELLUS RHONCUS IN NUNC SIT</h2>
                 <p>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
                   </p>
@@ -42,11 +44,11 @@ function    AboutThirdComponent() {
 
             <SwiperSlide>
               <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[270px] w-full rounded-[15px] overflow-hidden">
+                <div className=" h-[250px] w-full rounded-[15px] overflow-hidden ">
                 <img src={subnav2} height='100%' width='100%' alt="" />
                 </div>
-                <div className='min-h-[10px] w-full mt-1 text-center'>
-                <h2 className=' font-bold text-1xl'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
+                <div className='min-h-[10px] w-full text-center'>
+                <h2 className=' text-[14px] font-bold '>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
                 <p>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
 
@@ -61,11 +63,11 @@ function    AboutThirdComponent() {
 
             <SwiperSlide>
               <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[270px] w-full  rounded-[15px] overflow-hidden">
+                <div className=" h-[250px] w-full  rounded-[15px] overflow-hidden">
                 <img src={subnav3} height='100%' width='100%' alt="" />
                 </div>
-                <div className='min-h-[10px] w-full mt-1 text-center'>
-                <h2 className='font-bold text-1xl'>MOLESTIE NEC TORTOR QUIS</h2>
+                <div className='min-h-[10px] w-full  text-center'>
+                <h2 className='font-bold text-[14px]'>MOLESTIE NEC TORTOR QUIS</h2>
                 <p>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
                 </p>
@@ -76,11 +78,11 @@ function    AboutThirdComponent() {
 
             <SwiperSlide>
               <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[270px] w-full rounded-[15px] overflow-hidden">
+                <div className=" h-[250px] w-full rounded-[15px] overflow-hidden">
                     <img src={subnav1} height='100%' width='100%' alt="" />
                 </div>
-                <div className='min-h-[10px] w-full mt-1 text-center'>
-                    <h2 className=' font-bold text-1xl'>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <div className='min-h-[10px] w-full text-center'>
+                    <h2 className=' font-bold text-[14px]'>PHASELLUS RHONCUS IN NUNC SIT</h2>
                     <p>
                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
                     </p>
@@ -91,11 +93,11 @@ function    AboutThirdComponent() {
 
             <SwiperSlide>
               <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[270px] w-full  rounded-[15px] overflow-hidden ">
+                <div className=" h-[250px] w-full  rounded-[15px] overflow-hidden ">
                 <img src={subnav2} height='100%' width='100%' alt="" />
                 </div>
-                <div className='min-h-[10px] w-full mt-1 text-center'>
-                <h2 className=' font-bold text-1xl'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
+                <div className='min-h-[10px] w-full text-center'>
+                <h2 className=' font-bold text-[14px]'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
                 <p>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
                  </p>
@@ -106,11 +108,11 @@ function    AboutThirdComponent() {
 
             <SwiperSlide>
               <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[270px] w-full  rounded-[15px] overflow-hidden">
+                <div className=" h-[250px] w-full  rounded-[15px] overflow-hidden">
                 <img src={subnav3} height='100px' width='100%' alt="" />
                 </div>
-                <div className='min-h-[10px] w-full mt-1 text-center'>
-                <h2 className='font-bold text-1xl'>MOLESTIE NEC TORTOR QUIS</h2>
+                <div className='min-h-[10px] w-full text-center'>
+                <h2 className='font-bold text-[14px]'>MOLESTIE NEC TORTOR QUIS</h2>
                 <p>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
                 </p>
@@ -125,5 +127,4 @@ function    AboutThirdComponent() {
     </div>
   )
 }
-
-export default AboutThirdComponent
+export default AboutFifthComponent
