@@ -5,12 +5,15 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import subnav1 from './Aboutpictures/subnav1.jpg'
+import subnav2 from './Aboutpictures/subnav2.jpg'
+import subnav3 from './Aboutpictures/subnav3.jpg'
 
 
 
 function    AboutThirdComponent() {
   return (
-    <div className=' md:hidden  h-[300px] w-full mt-[30px]  bg-[red] '>
+    <div className='   w-full mt-[30px]  box-border '>
       <Swiper 
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={100}
@@ -19,95 +22,117 @@ function    AboutThirdComponent() {
       onSwiper={()=> console.log(Swiper)}
       // navigation
       pagination={{clickable:true}}
-      // scrollbar={{draggable: false}}
       >
 
-        <div className=" h-[300px] w-[100%] bg-[yellow] p-[20px]">
-            <SwiperSlide>
-              <div className=" h-[140px] w-full bg-MainBg slidee">
-              </div>
-              <div className='min-h-[10px] w-full mt-[2] text-center'>
-                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
-              </div>
-              <div className=''>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                  </p>
-              </div>
-              
-              
-            </SwiperSlide>
+      
+        <SwiperSlide>
+              <div className=" h-[430px] w-full bg-MainBg box-border p-3">
 
-            <SwiperSlide>
-              <div className=" h-[140px] w-full bg-MainBg slidee2">
-              </div>
-              <div className='min-h-[10px] w-full mt-[2] text-center'>
-                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
-              </div>
-              <div>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                  </p>
-              </div>
-            </SwiperSlide>
 
-            <SwiperSlide>
-              <div className=" h-[140px] w-full bg-MainBg slidee3">
-              </div>
+                <div className=" h-[270px] w-full bg-slate-500  rounded-[15px] overflow-hidden ">
+                  <img src={subnav1} height='100%'  width='100%' alt="" />
+                </div>
 
-              <div className='min-h-[10px] w-full mt-[2] text-center'>
-                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
-              </div>
-              <div>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                  </p>
-              </div>
-            </SwiperSlide>
 
-            <SwiperSlide>
-              <div className=" h-[140px] w-full bg-MainBg slidee">
-              </div>
-              <div className='min-h-[10px] w-full mt-[2] text-center'>
-                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
-              </div>
-              <div>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                  </p>
-              </div>
-            </SwiperSlide>
 
-            <SwiperSlide>
-              <div className=" h-[140px] w-full bg-MainBg slidee2">
-              </div>
-
-              <div className='min-h-[10px] w-full mt-[2] text-center'>
-                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
-              </div>
-              <div>
-                  <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                  </p>
-              </div>
-            </SwiperSlide>
                 
-            <SwiperSlide>
-              <div className=" h-[140px] w-full bg-MainBg slidee3">
-              </div>
-
-              <div className='h-[10px] w-full  text-center'>
+                <div className='min-h-[10px] w-full mt-5 text-center'>
                 <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
                 <p>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                </p>
+                  </p>
               </div>
-              
+              <div>
+                  
+              </div>
+              </div>
+             
             </SwiperSlide>
 
-                      
+            <SwiperSlide>
+              <div className=" h-[430px] w-full bg-MainBg box-border">
+                <div className=" h-[270px] w-full bg-slate-500  rounded-[15px] ">
+                <img src={subnav2} height='100%' width='100%' alt="" />
+                </div>
+                <div className='min-h-[10px] w-full mt-5 text-center'>
+                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
+                  </p>
+              </div>
+              <div>
+                  
+              </div>
+              </div>
+             
+            </SwiperSlide>
 
-        </div>
+            <SwiperSlide>
+              <div className=" h-[430px] w-full bg-MainBg box-border">
+                <div className=" h-[270px] w-full bg-slate-500  rounded-[15px]">
+                <img src={subnav3} height='100%' width='100%' alt="" />
+                </div>
+                <div className='min-h-[10px] w-full mt-5 text-center'>
+                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
+                  </p>
+              </div>
+              <div>
+                  
+              </div>
+              </div>
+             
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className=" h-[430px] w-full bg-MainBg box-border">
+                <div className=" h-[270px] w-full bg-slate-500  rounded-[15px]">
+                <img src={subnav1} height='100%' width='100%' alt="" />
+                </div>
+                <div className='min-h-[10px] w-full mt-5 text-center'>
+                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
+                  </p>
+              </div>
+              <div>
+                  
+              </div>
+              </div>
+             
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className=" h-[430px] w-full bg-MainBg box-border">
+                <div className=" h-[270px] w-full bg-slate-500  rounded-[15px] ">
+                <img src={subnav2} height='100%' width='100%' alt="" />
+                </div>
+                <div className='min-h-[10px] w-full mt-5 text-center'>
+                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
+                  </p>
+              </div>
+            </div>
+             
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className=" h-[430px] w-full bg-MainBg box-border">
+                <div className=" h-[270px] w-full bg-slate-500  rounded-[15px]">
+                <img src={subnav3} height='100px' width='100%' alt="" />
+                </div>
+                <div className='min-h-[10px] w-full mt-5 text-center'>
+                <h2>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
+                  </p>
+              </div>
+            </div>
+             
+            </SwiperSlide>
+
 
 
       </Swiper>
