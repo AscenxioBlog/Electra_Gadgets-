@@ -9,10 +9,15 @@
 }
 
 /* PRODUCT..... PRODUCT LIST  HOVER STYLING */
+/* .Popular-Product{
 .HoverPopular-Product{
     transition: 1s;
     opacity: 0;
 }
+
+.cartView:hover .Popular-Product{
+    opacity: 1;
+} */
 
 .popular-productHove:hover .HoverPopular-Product{
     opacity: 1;

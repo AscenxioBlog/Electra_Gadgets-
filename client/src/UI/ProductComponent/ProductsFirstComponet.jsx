@@ -56,8 +56,8 @@ function ProductsFirstComponet() {
   return (
     <div>
          <div className='min-h-[100vh] bg-[#FFFF] mt-16'>
-            <div className='h-[30px] p-[70px] text-[gray] text-[13px] font-medium flex justify-start items-center'>
-                <ul className='ml-20 flex gap-3'>
+            <div className='h-[30px] p-[70px] text-[gray] text-[12px] font-medium flex justify-start items-center'>
+                <ul className='ml-8 flex gap-3'>
                     <li className='hover:text-[green]'><Link>HOME</Link></li>
                     <li  className='hover:text-[green]'><Link>ACCESORIES</Link></li>
                     <li  className='hover:text-[green]'><Link>GADGETS</Link></li>
@@ -66,45 +66,44 @@ function ProductsFirstComponet() {
                 </ul>
             </div>
 
-
-            <div className='h-[480px] mt-5 ml-[150px]'>
-                 
-                   <div className=''>
-                          <h1 className='font-bold text-[20px]'>POPULAR PRODUCTS</h1>
-
-                    <div>
-                         
-                 <div className='h-[320px] w-[88%] mt-5 grid border-b-[.2px] border-t-[.2px] border-r-[.2px] border-[#8080802f] grid-cols-1 md:grid-cols-2 lg:grid-cols-4'>
-
-                       {products.map((product) => (
-                          <div key={product.id} className='h-[318px] w-[200px] border-l-[.2px]  border-[#8080802f] relative parent'>
-                             <h1 className='ml-[33px] text-[12px] font-medium text-[#B4CE20] mt-6'>{product.category}</h1>
-
-                             <h1 className='font-bold text-[14px] ml-[33px] '>{product.name}</h1>
-
-                             <img
-                                src={product.Image}
-                                className='object-cover rounded-lg mt-10 ml-[50px]'
-                            />
-
-                            <h1 className='ml-[33px] font-medium mt-6'>${product.price}</h1>
-
-                              {/* <section className='h-[170px] w-[70px] flex flex-col justify-around absolute right-0 top-10 first-child'>
-                                  <button className='h-[50px] w-[50px] bg-white rounded-[50%] flex justify-center items-center text-[25px]'><i class='bx bx-cart-alt'></i></button>
-                                  <button className='h-[50px] w-[50px] bg-white rounded-[50%] flex justify-center items-center text-[25px]'><i class='bx bx-heart'></i></button>
-                                  <button className='h-[50px] w-[50px] bg-[red] rounded-[50%] flex justify-center items-center text-[25px]'></button>
-                              </section> */}
+            
+            <div className='min-h-[480px] grid grid-cols-[25%,75%]'>
+                <div className='h-[450px] w-[250px] font-bold text-[11px] text-[gray] grid grid-rows-10 lg:ml-[86px]'>
+                          <div>
+                             <h1 className=' font-extrabold text-[18px]  text-black'>POPULAR CATEGORIES</h1>
                           </div>
-                        ))}
 
-                        </div>
+                          <Link className='border-b-[1px] border-[#8080802f]  text-center flex items-center'>LAPTOPS & COMPUTER</Link>
 
-                      </div>
-                   </div>
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO & PHOTOS CAMERAS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>SMARTPHONES</Link>
+
+                          <Link  className='border-b-[1px] border-[#8080802f] flex items-center'>TV & AUDIO</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>GADGETS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>CAR ELECTRONICS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO & PHOTOS CAMERAS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO GAMES & CONSOLE</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>SOFTWARE</Link>
+
+                          {/* <Link className='border-b-[1px] border-[gray]'>ACCESORIES</Link> */}
+                </div>
+
+                <div className='flex flex-col'>
+                    <div className='h-[340px] w-[85%] ml-10 mt-2 rounded-xl bg-[pink]'></div>
+
+                    <div className='h-[80px] w-[80%] flex items-center ml-10'>
+                       <b className='font-bold text-2xl'>SPORT GADGETS</b>
+            
+                    </div>
+                </div>
+
             </div>
-
-            {/* <div className='h-[100px] bg-green-900  ml-[150px]'></div> */}
-                
          </div>
     </div>
   )
