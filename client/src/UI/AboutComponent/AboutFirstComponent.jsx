@@ -1,5 +1,4 @@
 import React from 'react'
-import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponent'
 
 function AboutFirstComponent() {
   return (
@@ -8,14 +7,11 @@ function AboutFirstComponent() {
       <div className='text-white flex items-center justify-center flex-col p-[20px]  box-border'>
             <h1 className='font-bold  mt-[10px] text-[1.5rem] md:text-[2rem] lg:text-[3rem]'> WE ARE ELECTRA GADGETS</h1>
       </div>
-      <div className=' translate-y-[-8px] w-full h-[9px] flex items-center justify-center'>
-          <div className=' before:contents-[""] before:absolute before:w-[20px] before:h-[3px] before:bg-[lime] before:left-[128px]  md:before:left-[297px] lg:before:left-[606px]'></div>      
-          <div className=' before:contents-[""] before:absolute before:w-[70px] before:h-[3px] before:bg-MainBg before:left-[150px] md:before:left-[320px] md:before:w-[110px]
-               lg:before:left-[630px] lg:before:w-[130px]  
-              '></div>
-          <div className='b3 after:contents-[""] after:absolute after:w-[20px] after:h-[3px] after:bg-MainBg after:right-[148px] md:after:right-[315px] lg:after:right-[642px]'></div>      
-
-      </div>
+      <div className=" flex gap-3">
+            <section className=' h-[3px] w-[20px] bg-MainBg' style={{borderTopLeftRadius:'10px', borderBottomLeftRadius: '10px'}}></section>
+            <section className=' h-[3px] w-[120px] bg-MainBg'></section>
+            <section className=' h-[3px] w-[20px] bg-MainBg' style={{borderBottomRightRadius: ' 10px', borderTopRightRadius: '10px'}}></section>
+        </div>
       <div>
         <p className='text-[15px] text-center md:text-[1.5rem] lg:text-[2rem] text-white p-5 box-border'>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nitatibus 
@@ -25,10 +21,6 @@ function AboutFirstComponent() {
      
      
 
-      {/* <CustomButton
-        height= '100px'
-      
-      /> */}
 
     </div>
   )
