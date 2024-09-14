@@ -1,34 +1,100 @@
 import React from 'react'
 import clientlogo from './Aboutpictures/client-logo-1.jpg'
 import clientlogo2 from './Aboutpictures/client-logo-2.jpg'
+import clientlogo3 from './Aboutpictures/client-logo-3.jpg'
+import clientlogo4 from './Aboutpictures/client-logo-4.jpg'
+import clientlogo5 from './Aboutpictures/client-logo-5.jpg'
+import clientlogo6 from './Aboutpictures/client-logo-6.jpg'
+import clientlogo7 from './Aboutpictures/client-logo-7.jpg'
+import clientlogo8 from './Aboutpictures/client-logo-8.jpg'
+import clientlogo9 from './Aboutpictures/client-logo-9.jpg'
+import clientlogo10 from './Aboutpictures/client-logo-10.jpg'
 
 function AboutNinthComponent() {
   return (
-    <div className='h-[350px] w-full bg-[red] grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-1 p-[10px]'>
-            <div className='border-[2px] border-black md:border-[2px] md:border-black md:h-[120px] h-[120px] overflow-hidden hover:'>
-                <div className='h-[120px]'>
+    <div className='h-[620px] md:h-[370px] lg:h-[320px] w-full grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-5  p-[10px] cursor-pointer lg:w-[80%] lg:translate-x-[140px]'>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='h-[120px] logo'>
                   <img src={clientlogo} alt=""  width='100%' height='100%' />
 
                 </div>
-                <div className='h-[0px]'>
-                  <img src={clientlogo} alt=""   />
+                <div className='h-[0px] altlogo'>
+                  <img src={clientlogo} alt="" width='100%' height='100%'   />
 
                 </div>
             </div>
-            <div>
-                  <div>
-                    <img src={clientlogo2} alt="" />
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                  <div className='logo h-[120px]'>
+                     <img src={clientlogo2} alt="" width='100%' height='100%' />
                   </div>
-                  <div></div>
+                  <div className='h-[0px] altlogo'>
+                      <img src={clientlogo2} alt="" width='100%' height='100%' />
+
+                  </div>
             </div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>10</div>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                     <img src={clientlogo3} alt="" width='100%' height='100%' />
+                </div>
+                 <div className='h-[0px] altlogo'>
+                     <img src={clientlogo3} alt="" width='100%' height='100%' />
+                </div>
+            </div>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                  <div className='logo h-[120px]'>
+                     <img src={clientlogo4} alt="" width='100%' height='100%' />
+                  </div>
+                  <div className='h-[0px] altlogo'>
+                     <img src={clientlogo4} alt="" width='100%' height='100%' />
+                 </div>
+            </div>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                        <img src={clientlogo5} alt="" width='100%' height='100%' />
+                </div>
+                <div className='h-[0px] altlogo'>
+                        <img src={clientlogo5} alt="" width='100%' height='100%' />
+                </div>
+            </div>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                  <img src={clientlogo6} alt="" width='100%' height='100%' />
+                </div>
+                <div className='h-[0px] altlogo'>
+                    <img src={clientlogo6} alt="" width='100%' height='100%' />
+                </div>
+            </div>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                    <img src={clientlogo7} alt="" width='100%' height='100%' />
+                 </div>
+                   <div className='h-[0px] altlogo'>
+                       <img src={clientlogo7} alt="" width='100%' height='100%' />
+                   </div>
+            </div>
+            <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                    <img src={clientlogo8} alt="" width='100%' height='100%' />
+                 </div>
+                   <div className='h-[0px] altlogo'>
+                       <img src={clientlogo8} alt="" width='100%' height='100%' />
+                   </div>
+            </div>  <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                    <img src={clientlogo9} alt="" width='100%' height='100%' />
+                 </div>
+                   <div className='h-[0px] altlogo'>
+                       <img src={clientlogo9} alt="" width='100%' height='100%' />
+                   </div>
+            </div>  <div className='border-[1px] border-black md:border-[1px] md:border-black md:h-[120px] h-[120px] overflow-hidden lg:h-[150px] logowrap'>
+                <div className='logo h-[120px]'>
+                    <img src={clientlogo10} alt="" width='100%' height='100%' />
+                 </div>
+                   <div className='h-[0px] altlogo'>
+                       <img src={clientlogo10} alt="" width='100%' height='100%' />
+                   </div>
+            </div>
+          
         
     </div>
   )
