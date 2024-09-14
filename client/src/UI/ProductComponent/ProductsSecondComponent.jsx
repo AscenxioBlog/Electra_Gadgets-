@@ -216,7 +216,7 @@ function ProductsSecondComponent() {
          </div>
 
 
-                  <div className='h-[520px] w-[380px] font-bold grid grid-rows-10 p-6 text-[13px] text-[gray] md:h-[600px] md:w-[760px] lg:h-[500px] lg:w-[250px] lg:ml-[86px] lg:hidden'>
+                  <div className='h-[520px] w-[380px] font-bold grid grid-rows-10 mt-6 p-6 text-[13px] text-[gray] md:h-[600px] md:w-[760px] lg:h-[500px] lg:w-[250px] lg:ml-[86px] lg:hidden'>
                           <div>
                               <h1 className=' font-extrabold text-[18px] text-black'>POPULAR CATEGORIES</h1>
                           </div>
