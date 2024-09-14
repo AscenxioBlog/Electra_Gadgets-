@@ -8,6 +8,7 @@ import AboutSixthComponent from './AboutSixthComponent'
 import AboutSeventhComponent from './AboutSeventhComponent'
 import AboutEightComponent from './AboutEightComponent'
 import AboutNinthComponent from './AboutNinthComponent'
+import AboutTenthComponent from './AboutTenthComponent'
 
 function AboutComponent() {
   return (
@@ -22,6 +23,7 @@ function AboutComponent() {
       <AboutSeventhComponent/>
       <AboutEightComponent/>
       <AboutNinthComponent/>
+      <AboutTenthComponent/>
 
     </div>
   )
