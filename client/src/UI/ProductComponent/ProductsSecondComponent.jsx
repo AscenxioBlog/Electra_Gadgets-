@@ -197,9 +197,9 @@ function ProductsSecondComponent() {
 
                          <div className='h-[90px] w-[340px] flex bg-[#FFFF] p-6 absolute md:w-[250px] lg:w-[250px] justThere'>
                              <div className='flex items-center md:ml-10 lg:ml-7 gap-2'>
-                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f]'><FaCartPlus/></div>
-                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f]'><MdOutlineRemoveRedEye /></div>
-                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f]'><FaRegHeart/></div>
+                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f] hover:bg-MainBg'><FaCartPlus/></div>
+                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f] hover:bg-MainBg'><MdOutlineRemoveRedEye /></div>
+                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f] hover:bg-MainBg'><FaRegHeart/></div>
                              </div>
                          </div>
                     </section>
