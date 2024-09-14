@@ -3,7 +3,7 @@ import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponen
 
 function ServiceComponent2() {
   return (
-    <div className=' h-[130vh] w-full'>
+    <div className=' h-[100px] bg-[green]'>
         
     </div>
   )
