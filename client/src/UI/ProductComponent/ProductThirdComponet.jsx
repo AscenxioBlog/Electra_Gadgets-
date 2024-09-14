@@ -103,7 +103,7 @@ function ProductThirdComponet() {
 
   return (
     <>
-        <div className='mt-12 lg:mt-40'>
+        <div className='mt-12 lg:mt-32'>
         <div className='h-[50px] mx-32 grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4'>
             <p className='font-extrabold text-[17px] flex items-end'>HOT SALE</p>
             <p className='font-extrabold text-[17px] flex items-end'>TOP RATED</p>
