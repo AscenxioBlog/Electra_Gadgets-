@@ -8,9 +8,9 @@ function AboutFirstComponent() {
             <h1 className='font-bold  mt-[10px] text-[1.5rem] md:text-[2rem] lg:text-[3rem]'> WE ARE ELECTRA GADGETS</h1>
       </div>
       <div className=" flex gap-3">
-            <section className=' h-[3px] w-[20px] bg-MainBg' style={{borderTopLeftRadius:'10px', borderBottomLeftRadius: '10px'}}></section>
-            <section className=' h-[3px] w-[120px] bg-MainBg'></section>
-            <section className=' h-[3px] w-[20px] bg-MainBg' style={{borderBottomRightRadius: ' 10px', borderTopRightRadius: '10px'}}></section>
+            <section className=' h-[2px] w-[20px] bg-MainBg' style={{borderTopLeftRadius:'10px', borderBottomLeftRadius: '10px'}}></section>
+            <section className=' h-[2px] w-[120px] bg-MainBg'></section>
+            <section className=' h-[2px] w-[20px] bg-MainBg' style={{borderBottomRightRadius: ' 10px', borderTopRightRadius: '10px'}}></section>
         </div>
       <div>
         <p className='text-[15px] text-center md:text-[1.5rem] lg:text-[2rem] text-white p-5 box-border'>
