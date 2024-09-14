@@ -10,65 +10,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 function ProductsFirstComponet() {
-
-  const [posts, setPosts] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postsperPage, setPostsperPage] = useState(10);
-
-  useEffect(()=>{
-
-  });
-        
-     const products = [     
-      {
-        id: 1,
-        name: "USB WATCH CHARGER",
-        category: "ACCESSORIES",
-        price: 630.00,
-        Image: "http://unionagency.one/exzo/img/product-112.jpg",
-      },
-
-      {
-        id: 2,
-        name: "USB WATCH CHARGER",
-        category: "ACCESSORIES",
-        price: 630.00,
-        Image: "http://unionagency.one/exzo/img/product-111.jpg",
-      },
-
-      {
-        id: 3,
-        name: "USB WATCH CHARGER",
-        category: "ACCESSORIES",
-        price: 704,
-        Image: "http://unionagency.one/exzo/img/product-113.jpg",
-      },
-
-      {
-        id: 4,
-        name: "USB WATCH CHARGER",
-        category: "ACCESSORIES",
-        price: 122,
-        Image: "http://unionagency.one/exzo/img/product-114.jpg",
-      },
-
-      // {
-      //   id: 5,
-      //   accessories: "USB WATCH CHARGER",
-      //   category: "ACCESSORIES",
-      //   price: 630.00,
-      //   Image: "",
-      // },
-
-      // {
-      //   id: 6,
-      //   accessories: "USB WATCH CHARGER",
-      //   category: "ACCESSORIES",
-      //   price: 630.00,
-      //   Image: "",
-      // },
-     ]
-
   return (
     <div>
          <div className='min-h-[70vh] mt-16 md:min-h-[60vh] lg:min-h-[100vh]'>
@@ -131,7 +72,7 @@ function ProductsFirstComponet() {
                
                     {/* <div className='h-[380px] w-[380%] mt-5 rounded-xl bg-[pink] ml-3 md:ml-5 md:mt-12 lg:w-[85%] lg:ml-10 lg:mt-0'></div> */}
 
-                    <div className='h-[80px] w-[380%] flex items-center ml-3 bg-[green] md:ml-5 lg:ml-10 lg:w-[85%]'>
+                    <div className='h-[80px] w-[380%] flex items-center ml-3 md:ml-5 lg:ml-10 lg:w-[85%]'>
                        <b className='font-bold text-[15px] lg:text-2xl'>SPORT GADGETS</b>
                     </div>
                 </div>
