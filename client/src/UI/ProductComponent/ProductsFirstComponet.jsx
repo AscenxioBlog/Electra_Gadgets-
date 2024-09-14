@@ -13,8 +13,8 @@ function ProductsFirstComponet() {
   return (
     <div>
          <div className='min-h-[70vh] mt-16 md:min-h-[60vh] lg:min-h-[100vh]'>
-            <div className='h-[40px] text-[gray] text-[12px] flex justify-start items-center font-medium lg:flex lg:justify-start lg:items-center lg:p-[50px]'>
-                <ul className='flex gap-3 ml-9 lg:ml-8'>
+            <div className='h-[40px] text-[gray] text-[12px] flex justify-start items-center font-medium md:p-[50px] lg:flex lg:justify-start lg:items-center lg:p-[50px]'>
+                <ul className='flex gap-3 ml-9 md:ml-4 lg:ml-8'>
                     <li className='hover:text-MainBg'><Link>HOME</Link></li>
                     <li  className='hover:text-MainBg'><Link>ACCESORIES</Link></li>
                     <li  className='hover:text-MainBg'><Link>GADGETS</Link></li>
@@ -46,8 +46,6 @@ function ProductsFirstComponet() {
                           <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO GAMES & CONSOLE</Link>
 
                           <Link className='border-b-[1px] border-[#8080802f] flex items-center'>SOFTWARE</Link>
-
-                          {/* <Link className='border-b-[1px] border-[gray]'>ACCESORIES</Link> */}
                 </div>
 
                 <div className='flex flex-col w-[100%]'>
@@ -60,7 +58,7 @@ function ProductsFirstComponet() {
                         pagination={{clickable:true}}
                 >
                 <SwiperSlide>
-                    <div className='h-[380px] w-[380%] mt-5 rounded-xl bg-[#29cf7c] md:mt-12 lg:w-[100%] lg:mt-0'></div>
+                    <div className='h-[380px] w-[380%] mt-5 rounded-xl bg-[#29cf7c] md:mt-0 lg:w-[100%] lg:mt-0'></div>
                 </SwiperSlide>
 
                 <SwiperSlide>
