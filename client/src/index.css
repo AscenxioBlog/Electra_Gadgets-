@@ -32,6 +32,14 @@
     background-attachment: fixed;
     
 }
+.logowrap:hover .logo{
+    transform: translateY(-150px);
+    transition: 1s ease-in-out;
+}
+.logowrap:hover .altlogo{
+    transform: translateY(-150px);
+    transition: 1s ease-in;
+}
 
 
 /* /* THIS IS THE END OF ABOUT COMPONENT STYLING */
