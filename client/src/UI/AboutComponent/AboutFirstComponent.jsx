@@ -1,5 +1,4 @@
 import React from 'react'
-import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponent'
 
 function AboutFirstComponent() {
   return (
@@ -22,10 +21,6 @@ function AboutFirstComponent() {
      
      
 
-      {/* <CustomButton
-        height= '100px'
-      
-      /> */}
 
     </div>
   )

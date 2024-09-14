@@ -32,21 +32,7 @@
     background-attachment: fixed;
     
 }
-.slidee{
-    background-image: url(UI/AboutComponent/Aboutpictures/subnav1.jpg);
-    background-repeat: none;
-    background-size: 100% 100%;
-}
-.slidee2{
-    background-image: url(UI/AboutComponent/Aboutpictures/subnav2.jpg);
-    background-repeat: none;
-    background-size: 100% 100%;
-}
-.slidee3{
-    background-image: url(UI/AboutComponent/Aboutpictures/subnav3.jpg);
-    background-repeat: none;
-    background-size: 100% 100%;
-}
+
 
 /* /* THIS IS THE END OF ABOUT COMPONENT STYLING */
 
