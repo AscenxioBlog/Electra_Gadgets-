@@ -90,10 +90,10 @@ function ProductsSecondComponent() {
   return (
     <div>
 
-        <div className='h-[100vh] grid grid-cols-[25%,75%]'>
+        <div className='min-h-[100vh] grid grid-cols-1 lg:grid-cols-[25%,75%]'>
                     
-                 <div className='w-[250px] hidden md:block lg:block lg:ml-[86px]'>
-                      <div className='mt-20'>
+                 <div className='w-[250px] hidden lg:block lg:ml-[86px] md:hidden'>
+                      <div className='mt-20 '>
                          <b className='font-bold text-[23px]'>PRICE</b>
                       </div>
 
@@ -103,7 +103,7 @@ function ProductsSecondComponent() {
                          <h1 className='text-[gray]'>Price: <span className='font-medium text-[12px] text-black'>$36-$231</span></h1>
                       </div>
                 
-                      <div className='mt-9 leading-9'>
+                      <div className='mt-20 leading-9'>
                          <b className='font-bold text-[23px]'>BRANDS</b> <br />
 
                          <h1 className='font-medium text-[gray] text-[13px]'> <input type="checkbox"/>&nbsp;LG</h1>
@@ -117,7 +117,7 @@ function ProductsSecondComponent() {
                          <h1 className='font-medium text-[gray] text-[13px]'> <input type="checkbox"/>&nbsp;LENOVO</h1>
                       </div>
 
-                      <div className='mt-8 leading-9'>
+                      <div className='mt-20 leading-9'>
                          <b className='font-bold text-[23px]'>POPULAR TAGS</b> <br />
 
                         
@@ -136,37 +136,108 @@ function ProductsSecondComponent() {
 
                   </div> 
 
-                 <div className='h-[80vh] w-[88%] gap-12 mt-5 grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                 <div className='min-h-[80vh] w-full gap-5 grid grid-cols-1 md:grid-cols-3 md:grid  lg:grid-cols-3 lg:mt-5 lg:w-[88%] lg:gap-12'>
                   {products.map((product) => (
-                    <div key={product.id} className='h-[430px] w-[250px] border-l-[.2px]  border-[#8080802f] relative cartView'>
-                        <h1 className='ml-[27px] text-[12px] font-medium text-MainBg mt-6'>{product.category}</h1>
+                    <div key={product.id} className='h-[400px] w-[250px] border-l-[.2px]  border-[#8080802f] lg:h-[430px] relative cartView'>
+                        <h1 className='ml-[35px] text-[12px] font-medium text-MainBg mt-6 lg:ml-[27px]'>{product.category}</h1>
 
-                        <h1 className='font-bold text-[14px] ml-[27px] '>{product.name}</h1>
+                        <h1 className='font-bold text-[14px] ml-[35px] lg:ml-[27px]'>{product.name}</h1>
 
                         <img
                           src={product.Image}
-                          className='object-cover rounded-lg mt-10 ml-[50px]'
+                          className='object-cover rounded-lg mt-10 ml-[100px] md:ml-0 lg:ml-[40px]'
                       />
 
-                    <h1 className='ml-[27px] font-medium text-[gray] mt-6'>${product.price}</h1>
+                    <h1 className=' ml-[35px] font-medium text-[gray] mt-6'>${product.price}</h1>
 
-                    <p className='ml-6 mt-3 text-[14px] text-[gray]'>
+                    <p className=' ml-[35px] mt-3 text-[14px] text-[gray]'>
                          {product.details}
                     </p>
 
-                      {/* <section className='h-[170px] w-[70px] flex flex-col justify-around absolute right-0 top-10 Popular-Product'>
+                     
+                  </div>
+                  ))}
+                {/* <section className='h-[170px] w-[70px] flex flex-col justify-around absolute right-0 top-10 Popular-Product'>
                           <button className='h-[50px] w-[50px] bg-white rounded-[50%] flex justify-center items-center text-[25px]'><i class='bx bx-cart-alt'></i></button>
                           <button className='h-[50px] w-[50px] bg-white rounded-[50%] flex justify-center items-center text-[25px]'><i class='bx bx-heart'></i></button>
                           <button className='h-[50px] w-[50px] bg-[red] rounded-[50%] flex justify-center items-center text-[25px]'></button>
                       </section> */}
-                  </div>
-                  ))}
 
-
-                     <div className='h-12 w-[900px] bg-green-400'></div> 
+                     <div className='h-[80px] bg-green-400'></div> 
 
                   </div>
          </div>
+
+
+                  <div className='h-[520px] w-[380px] font-bold grid grid-rows-10 p-6 text-[13px] text-[gray] md:h-[600px] md:w-[760px] lg:h-[500px] lg:w-[250px] lg:ml-[86px] lg:hidden'>
+                          <div>
+                              <h1 className=' font-extrabold text-[18px] text-black'>POPULAR CATEGORIES</h1>
+                          </div>
+
+                          <Link className='border-b-[1px] border-[#8080802f]  text-center flex items-center'>LAPTOPS & COMPUTER</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO & PHOTOS CAMERAS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>SMARTPHONES</Link>
+
+                          <Link  className='border-b-[1px] border-[#8080802f] flex items-center'>TV & AUDIO</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>GADGETS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>CAR ELECTRONICS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO & PHOTOS CAMERAS</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>VIDEO GAMES & CONSOLE</Link>
+
+                          <Link className='border-b-[1px] border-[#8080802f] flex items-center'>SOFTWARE</Link>
+
+                          {/* <Link className='border-b-[1px] border-[gray]'>ACCESORIES</Link> */}
+                </div>
+
+
+                <div className='w-[250px] lg:ml-[86px] p-6 lg:hidden '>
+                      <div className='lg:mt-20'>
+                         <b className='font-bold text-[23px]'>PRICE</b>
+                      </div>
+
+                      <div>
+                         <input type="range" className='w-[350px] mt-5 md:w-[700px] lg:w-[220px] '/>
+
+                         <h1 className='text-[gray]'>Price: <span className='font-medium text-[12px] text-black'>$36-$231</span></h1>
+                      </div>
+                
+                      <div className=' mt-7 leading-[50px] lg:leading-9 lg:mt-20'>
+                         <b className='font-bold text-[23px]'>BRANDS</b> <br />
+
+                         <h1 className='font-medium text-[gray] text-[17px] lg:text-[13px]'> <input type="checkbox"/>&nbsp;LG</h1>
+
+                         <h1 className='font-medium text-[gray] text-[17px] lg:text-[13px]'> <input type="checkbox"/>&nbsp;SAMSUNG</h1>
+
+                         <h1 className='font-medium text-[gray] text-[17px] lg:text-[13px]'> <input type="checkbox"/>&nbsp;APPLE</h1>
+
+                         <h1 className='font-medium text-[gray] text-[17px] lg:text-[13px]'> <input type="checkbox"/>&nbsp;HTC</h1>
+
+                         <h1 className='font-medium text-[gray] text-[17px] lg:text-[13px]'> <input type="checkbox"/>&nbsp;LENOVO</h1>
+                      </div>
+
+                      <div className='leading-9 mt-7 lg:mt-20'>
+                         <b className='font-bold text-[23px]'>POPULAR TAGS</b> <br />
+
+                        
+                          <div className='font-medium text-[15px] text-[gray] mt-3 grid grid-cols-1 md:w-[380%] md:grid md:grid-cols-3 md:text-[18px] lg:grid lg:grid-cols-3 lg:text-[11px]'>
+                               <Link className=' flex items-center hover:text-MainBg'>SMARTPHONES</Link>
+                               <Link  className=' flex items-center hover:text-MainBg'>WIRELESS</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>CASES</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>PROFESSIONAL</Link>
+                               <Link className='flex items-center hover:text-MainBg'>NEW</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>BRANDS</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>GADGETS</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>REPLACEMENT</Link>
+                               <Link className=' flex items-center hover:text-MainBg'>HEADPHONES</Link>
+                          </div>
+                      </div>
+                  </div> 
     </div>
   )
 }
