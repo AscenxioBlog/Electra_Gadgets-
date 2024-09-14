@@ -79,8 +79,16 @@
 .service{
     background-color: #478CCF;
     background-image: url(ServicePictures/firstpics.jpg);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+}
+.service2{
+    background-image: url(ServicePictures/servicepic2.jpg);
+    background-size: 100% 100%;
+    background-color: #478CCF;
+    background-blend-mode: soft-light;
+
 }
 
 /* END OF SERVICE COMPONENT STYLING */
