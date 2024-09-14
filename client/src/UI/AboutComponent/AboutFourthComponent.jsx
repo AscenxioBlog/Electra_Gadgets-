@@ -76,31 +76,31 @@ function    AboutFourthComponent() {
 
             <SwiperSlide>
               <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[250px] w-full rounded-[15px] overflow-hidden">
-                    <img src={subnav1} height='100%' width='100%' alt="" />
-                </div>
-                <div className='min-h-[10px] w-full text-center'>
-                    <h2 className=' font-bold text-1xl'>PHASELLUS RHONCUS IN NUNC SIT</h2>
-                    <p>
-                          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
-                    </p>
-              </div>
+                    <div className=" h-[250px] w-full rounded-[15px] overflow-hidden">
+                        <img src={subnav1} height='100%' width='100%' alt="" />
+                    </div>
+                    <div className='min-h-[10px] w-full text-center'>
+                            <h2 className=' font-bold text-1xl'>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
+                            </p>
+                   </div>
               </div>
              
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className=" h-[430px] w-full box-border p-3">
-                <div className=" h-[250px] w-full  rounded-[15px] overflow-hidden">
-                <img src={subnav2} height='100%' width='100%' alt="" />
+                <div className=" h-[430px] w-full box-border p-3">
+                    <div className=" h-[250px] w-full  rounded-[15px] overflow-hidden">
+                        <img src={subnav2} height='100%' width='100%' alt="" />
+                    </div>
+                    <div className='min-h-[10px] w-full text-center'>
+                        <h2 className=' font-bold text-1xl'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
+                        <p>
+                            Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
+                        </p>
+                   </div>
                 </div>
-                <div className='min-h-[10px] w-full text-center'>
-                <h2 className=' font-bold text-1xl'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
-                <p>
-                    Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
-                 </p>
-              </div>
-            </div>
              
             </SwiperSlide>
 

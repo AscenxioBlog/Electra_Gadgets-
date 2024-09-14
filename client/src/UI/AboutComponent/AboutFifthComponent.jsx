@@ -33,8 +33,8 @@ function    AboutFifthComponent() {
                   <img src={subnav1} height='100%'  width='100%' alt="" />
                 </div>
                 <div className='min-h-[10px] w-full text-center p-3 box-border'>
-                <h2 className=' font-bold text-[14px]'>PHASELLUS RHONCUS IN NUNC SIT</h2>
-                <p>
+                <h2 className=' font-bold text-[15px]'>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                <p className='text-[14px]'>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
                   </p>
               </div>
@@ -48,8 +48,8 @@ function    AboutFifthComponent() {
                 <img src={subnav2} height='100%' width='100%' alt="" />
                 </div>
                 <div className='min-h-[10px] w-full text-center'>
-                <h2 className=' text-[14px] font-bold '>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
-                <p>
+                <h2 className=' text-[15px] font-bold '>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
+                <p className='text-[14px]'>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
 
                   </p>
@@ -67,8 +67,8 @@ function    AboutFifthComponent() {
                 <img src={subnav3} height='100%' width='100%' alt="" />
                 </div>
                 <div className='min-h-[10px] w-full  text-center'>
-                <h2 className='font-bold text-[14px]'>MOLESTIE NEC TORTOR QUIS</h2>
-                <p>
+                <h2 className='font-bold text-[15px]'>MOLESTIE NEC TORTOR QUIS</h2>
+                <p className='text-[14px]'>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
                 </p>
               </div>
@@ -82,8 +82,8 @@ function    AboutFifthComponent() {
                     <img src={subnav1} height='100%' width='100%' alt="" />
                 </div>
                 <div className='min-h-[10px] w-full text-center'>
-                    <h2 className=' font-bold text-[14px]'>PHASELLUS RHONCUS IN NUNC SIT</h2>
-                    <p>
+                    <h2 className=' font-bold text-[15px]'>PHASELLUS RHONCUS IN NUNC SIT</h2>
+                    <p className='text-[14px]'>
                           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis nihil blanditiis, hic similique facere eaque.
                     </p>
               </div>
@@ -97,8 +97,8 @@ function    AboutFifthComponent() {
                 <img src={subnav2} height='100%' width='100%' alt="" />
                 </div>
                 <div className='min-h-[10px] w-full text-center'>
-                <h2 className=' font-bold text-[14px]'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
-                <p>
+                <h2 className=' font-bold text-[15px]'>AMET MATTIS MOLESTIE NEC TORTOR QUIS </h2>
+                <p className='text-[14px]'>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
                  </p>
               </div>
@@ -112,8 +112,8 @@ function    AboutFifthComponent() {
                 <img src={subnav3} height='100px' width='100%' alt="" />
                 </div>
                 <div className='min-h-[10px] w-full text-center'>
-                <h2 className='font-bold text-[14px]'>MOLESTIE NEC TORTOR QUIS</h2>
-                <p>
+                <h2 className='font-bold text-[15px]'>MOLESTIE NEC TORTOR QUIS</h2>
+                <p className='text-[14px]'>
                     Etiam mollis tristique mi ac ultrices. Morbi vel neque eget lacus sollicitudin facilisis. Lorem ipsum dolor sit amet semper ante vehicula
                 </p>
               </div>
