@@ -1,5 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { FaCartPlus } from "react-icons/fa";
+import { MdOutlineRemoveRedEye } from "react-icons/md";
+import { FaRegHeart } from "react-icons/fa";
+import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponent';
 
 function ProductsSecondComponent() {
 
@@ -83,7 +87,25 @@ function ProductsSecondComponent() {
       price: 321.00,
       Image: "http://unionagency.one/exzo/img/product-48.jpg",
        details: "Mollis nec consequat at in feugiat  mole stie tortor",
-    }
+    },
+
+    // {
+    //   id: 10,
+    //   name: "SMARTPHONE VIBEX",
+    //   category: "SMART PHONES",
+    //   price: 321.00,
+    //   Image: "http://unionagency.one/exzo/img/product-48.jpg",
+    //    details: "Mollis nec consequat at in feugiat  mole stie tortor",
+    // },
+
+    // {
+    //   id: 11,
+    //   name: "SMARTPHONE VIBEX",
+    //   category: "SMART PHONES",
+    //   price: 321.00,
+    //   Image: "http://unionagency.one/exzo/img/product-48.jpg",
+    //    details: "Mollis nec consequat at in feugiat  mole stie tortor",
+    // }
   ]
 
 
@@ -100,7 +122,7 @@ function ProductsSecondComponent() {
                       <div>
                          <input type="range" className='w-[220px] mt-5'/>
 
-                         <h1 className='text-[gray]'>Price: <span className='font-medium text-[12px] text-black'>$36-$231</span></h1>
+                         <h1 className='text-[gray]'>Price: <span className='font-medium text-[15px] text-black lg:text-[12px]'>$36-$231</span></h1>
                       </div>
                 
                       <div className='mt-20 leading-9'>
@@ -138,7 +160,7 @@ function ProductsSecondComponent() {
 
                  <div className='min-h-[80vh] w-full gap-5 grid grid-cols-1 md:grid-cols-3 md:grid  lg:grid-cols-3 lg:mt-5 lg:w-[88%] lg:gap-12'>
                   {products.map((product) => (
-                    <div key={product.id} className='h-[400px] w-[250px] border-l-[.2px]  border-[#8080802f] lg:h-[430px] relative cartView'>
+                    <div key={product.id} className='h-[400px] w-[350px] border-l-[.2px]  border-[#8080802f] md:w-[250px] lg:h-[430px] relative cartView'>
                         <h1 className='ml-[35px] text-[12px] font-medium text-MainBg mt-6 lg:ml-[27px]'>{product.category}</h1>
 
                         <h1 className='font-bold text-[14px] ml-[35px] lg:ml-[27px]'>{product.name}</h1>
@@ -155,15 +177,40 @@ function ProductsSecondComponent() {
                     </p>
 
                      
+                     
+                    <section className='h-[400px] w-[355px] flex items-center justify-center flex-col absolute right-0 top-10 md:w-[250px] Popular-Product'>
+                         <CustomButton
+                            backgroundColor = 'black'
+                            label = 'LEARN MORE'
+                            color = 'white'
+                            borderRadius = '30px'
+                            className = 'h-[50px] w-[190px] text-[12px] md:h-[50px] md:w-[150px] lg:h-[50px] lg:w-[150px] learnMore'
+                         />
+
+                         <CustomButton               
+                            backgroundColor = '#478CCF'
+                            label= 'ADD TO CART'
+                            color = 'white'
+                            borderRadius = '30px'
+                            className = 'h-[50px] w-[190px] text-[12px] md:h-[50px] md:w-[150px] lg:h-[50px] lg:w-[150px] addToCart'
+                        />
+
+                         <div className='h-[90px] w-[340px] flex bg-[#FFFF] p-6 absolute md:w-[250px] lg:w-[250px] justThere'>
+                             <div className='flex items-center md:ml-10 lg:ml-7 gap-2'>
+                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f] hover:bg-MainBg'><FaCartPlus/></div>
+                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f] hover:bg-MainBg'><MdOutlineRemoveRedEye /></div>
+                                <div className='h-[40px] w-[40px] rounded-[50%] flex justify-center items-center border-[.2px]  border-[#8080802f] hover:bg-MainBg'><FaRegHeart/></div>
+                             </div>
+                         </div>
+                    </section>
+
                   </div>
                   ))}
-                {/* <section className='h-[170px] w-[70px] flex flex-col justify-around absolute right-0 top-10 Popular-Product'>
-                          <button className='h-[50px] w-[50px] bg-white rounded-[50%] flex justify-center items-center text-[25px]'><i class='bx bx-cart-alt'></i></button>
-                          <button className='h-[50px] w-[50px] bg-white rounded-[50%] flex justify-center items-center text-[25px]'><i class='bx bx-heart'></i></button>
-                          <button className='h-[50px] w-[50px] bg-[red] rounded-[50%] flex justify-center items-center text-[25px]'></button>
-                      </section> */}
 
-                     <div className='h-[80px] bg-green-400'></div> 
+
+                     {/* <div className='h-[80px] md:w-[760px] lg:w-[800px]'>
+                        
+                      </div>  */}
 
                   </div>
          </div>
@@ -192,7 +239,6 @@ function ProductsSecondComponent() {
 
                           <Link className='border-b-[1px] border-[#8080802f] flex items-center'>SOFTWARE</Link>
 
-                          {/* <Link className='border-b-[1px] border-[gray]'>ACCESORIES</Link> */}
                 </div>
 
 

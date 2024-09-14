@@ -8,13 +8,11 @@ function CustomButton(props) {
         backgroundColor: props.backgroundColor,
         borderRadius: props.borderRadius,
         label: props.label,
-        // className: props.className
         color: props.color || 'black',
         border: props.border || 'none',
         cursor: 'pointer',
         fontWeight: 'bold',
         marginTop: props.marginTop
-
     }
 
   return (
