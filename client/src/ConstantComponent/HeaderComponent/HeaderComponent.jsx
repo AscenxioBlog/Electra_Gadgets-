@@ -1,10 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaCartPlus } from "react-icons/fa6";
 import { FaUserPlus } from "react-icons/fa6";
 import { IoMdMenu } from "react-icons/io";
+import Headerchild from './Headerchild';
 
 function HeaderComponent() {
+  var [view,setView]=useState(0)
+  var [opacity,setOpacity]=useState(0)
+  function dropdown() {
+    if (opacity == 1 && view == '300px') {
+      setOpacity(0)
+      setView('0px')
+    } else {
+      setOpacity(1)
+      setView('300px')
+    }
+   
+  }
   return (
     <div>
         <div className='h-[70px] bg-white z-30 grid grid-cols-[60%,40%] md:grid-cols-[40%,60%] fixed top-0 w-[100%]  lg:h-[70px] lg:grid-cols-[40%,20%,40%] ' style={{boxShadow:'0 0 25px black'}}>
@@ -33,9 +46,10 @@ function HeaderComponent() {
             <section className=" flex text-[20px] gap-3 pr-5 ">
               <span><FaUserPlus /></span>
               <span><FaCartPlus /></span>
-              <button className=' lg:hidden'><IoMdMenu /></button>
+              <button onClick={dropdown} className=' lg:hidden'><IoMdMenu /></button>
             </section>
           </div>
+
                {/* <div className='text-[30px] gap-2 p-[20px] text-[#FD282A] flex items-center md:text-[40px] md:ml-[30px] '>
                     <i class="fa-solid fa-cart-shopping"></i>
                     <span className='text-[black] text-[30px] font-bold md:text-[40px] lg:text-3xl'>Electra_Gadget</span>
@@ -59,6 +73,7 @@ function HeaderComponent() {
                    <div className='bg-[#F1F1F1] rounded-[50%] h-[50px] w-[50px] flex justify-center items-center'></div>
                </div> */}
            </div>
+           <Headerchild setOpacity={opacity} setView={view}/>
     </div>
   )
 }
