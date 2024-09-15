@@ -46,7 +46,9 @@ function HeaderComponent() {
             <section className=" flex text-[20px] gap-3 pr-5 ">
               <span><FaUserPlus /></span>
               <span><FaCartPlus /></span>
-              <button onClick={dropdown} className=' lg:hidden'><IoMdMenu /></button>
+              <button onClick={dropdown} className=' lg:hidden'><IoMdMenu />
+              <Headerchild setOpacity={opacity} setView={view}/>
+              </button>
             </section>
           </div>
 
@@ -73,7 +75,7 @@ function HeaderComponent() {
                    <div className='bg-[#F1F1F1] rounded-[50%] h-[50px] w-[50px] flex justify-center items-center'></div>
                </div> */}
            </div>
-           <Headerchild setOpacity={opacity} setView={view}/>
+          
     </div>
   )
 }
