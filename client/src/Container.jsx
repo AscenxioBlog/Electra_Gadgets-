@@ -6,6 +6,7 @@ import AboutComponent from './UI/AboutComponent/AboutComponent';
 import ServiceComponent from './UI/ServiceComponent/ServiceComponent';
 import HeaderComponent from './ConstantComponent/HeaderComponent/HeaderComponent';
 import ContactComponent from './UI/ContactComponent/ContactComponent';
+import FooterComponent from './ConstantComponent/FooterComponent/FooterComponent';
 
 function Container() {
   return (
@@ -21,7 +22,7 @@ function Container() {
         <Route path='/contact' element={<ContactComponent/>}/>
 
       </Routes>
-      
+      <FooterComponent/>
       </BrowserRouter>
     </div>
   );
