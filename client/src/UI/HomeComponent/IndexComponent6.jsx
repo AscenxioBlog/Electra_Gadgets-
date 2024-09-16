@@ -1,8 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import image1 from './TheImages/headphone88.webp'
 import image2 from './TheImages/image1.jpg'
+
+import image3 from './TheImages/headphones8.webp'
 import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponent'
+
+
 function IndexComponent6() {
+  const [hovery, setHovery] = useState(false)
+  const [hovery2, setHovery2] = useState(false)
   return (
     <div>
 
@@ -12,7 +18,7 @@ function IndexComponent6() {
             <div className='text-green-400 mt-3'>_ ________</div>
         </div>
 <div className='grid md:grid-cols-2 lg:grid-cols-2 mt-16'>
-         <div className='min-h-[60vh] w-[90vw] md:w-[45vw] ml-4 md:min-h-[35vh] text-white lg:h-[50vh]  lg:mr-14 lg:ml-14 relative top-4 bg-cover bg-blend-darken rounded-md bg-black bg-opacity-30' style={{ backgroundImage: `url(${image2})` }} >
+         <div className='min-h-[60vh] w-[90vw] md:w-[45vw] ml-4 md:min-h-[35vh] text-white lg:h-[65vh]  lg:mr-14 lg:ml-14 relative top-4 bg-cover bg-blend-darken rounded-md bg-black bg-opacity-30' style={{ backgroundImage: `url(${image2})` }} >
 
             <div className='text-gray-200 text-[1.6rem] ml-5 mt-7'>STARTING FROM $199.000</div>
             <div className='font-extrabold text-white text-[2rem] ml-5 md:w-56'>SOUND <span className='text-green-400 pr-10'>MAX </span>SERIES</div>
@@ -34,7 +40,7 @@ function IndexComponent6() {
 
          <div className='grid md:grid-cols-2 lg:grid-cols-2'>
             <div>
-         <div><img src={image1} alt="" className='h-[240px] lg:ml-24 w-[150px] ml-[120px] mt-16 md:mt-0  md:ml-4'/></div>
+         <div><img src={hovery ? image3 : image1}  alt=""  onMouseEnter={() => setHovery(true)}   onMouseLeave={() => setHovery(false)}    className='h-[240px] lg:ml-24 w-[150px] ml-[120px] mt-16 md:mt-0  md:ml-4  transition-transform hover:scale-50'/></div>
                     <div className='pl-8'>
                     <div className='text-green-500 mt-5 font-bold  lg:text-[1.2rem] text-center md:ml-0'> SOUND MAX RELAX</div>
                       
@@ -62,7 +68,7 @@ function IndexComponent6() {
                     
               
                     <div className='mt-7 md:mt-0 lg:mt-0 lg:ml-7'>
-         <div><img src={image1} alt="" className='h-[240px] lg:ml-20 w-[150px] ml-[120px]  md:ml-8'/></div>
+         <div><img src={hovery2 ? image1 : image3}  alt=""  onMouseEnter={() => setHovery2(true)}   onMouseLeave={() => setHovery2(false)}  className='h-[240px] lg:ml-20 w-[150px] ml-[120px]  md:ml-8  transition-transform hover:scale-50'/></div>
                     <div className='pl-8'>
                       <div className='text-green-500 text-center font-bold lg:text-[1.2rem] mt-5'> SOUND MAX RELAX</div>
                      

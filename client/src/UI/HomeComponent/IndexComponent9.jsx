@@ -6,7 +6,7 @@ function IndexComponent9() {
     <div>
 
         <div className='grid lg:grid-cols-3 ml-5 mr-5 lg:ml-14  mt-16 lg:mr-14'>
-        <div className=' h-[48vh]  md:h-[45vh] lg:min-h-[68vh] rounded-md bg-cover bg-blend-darken text-gray-200 lg:mt-0 bg-black bg-opacity-50' style={{ backgroundImage: `url(${image3})` }}>
+        <div className=' h-[48vh]  md:h-[45vh] lg:min-h-[570px] rounded-md bg-cover bg-blend-darken text-gray-200 lg:mt-0 bg-black bg-opacity-50' style={{ backgroundImage: `url(${image3})` }}>
 <div className='text-center mt-11 md:mt-14'>RELIABILITY</div>
 <div className='text-center mt-5'>RELIABILITy perfect soundfor everyone</div>
 <div className='mt-7 text-center text-green-500'>_ ________</div>
@@ -31,7 +31,7 @@ function IndexComponent9() {
         </div>
 
 
-        <div className=' h-[48vh]  md:h-[45vh] lg:min-h-[68vh] mt-4 lg:mt-0 rounded-md bg-cover bg-blend-darken text-gray-200 bg-black bg-opacity-50 lg:ml-5 ' style={{ backgroundImage: `url(${image3})` }}>
+        <div className=' h-[48vh]  md:h-[45vh] lg:min-h-[570px] mt-4 lg:mt-0 rounded-md bg-cover bg-blend-darken text-gray-200 bg-black bg-opacity-50 lg:ml-5 ' style={{ backgroundImage: `url(${image3})` }}>
 <div className='text-center mt-11 md:mt-14'>RELIABILITY</div>
 <div className='text-center mt-5'>RELIABILITy perfect soundfor everyone</div>
 <div className='mt-7 text-center text-green-500'>_ ________</div>
@@ -56,9 +56,9 @@ function IndexComponent9() {
         </div>
 
 
-        <div className=' h-[48vh]  md:h-[45vh] lg:min-h-[68vh] mt-4 lg:mt-0 lg:ml-4 rounded-md bg-cover bg-blend-darken text-gray-200 bg-black bg-opacity-50' style={{ backgroundImage: `url(${image3})` }}>
+        <div className=' h-[48vh]  md:h-[45vh] lg:min-h-[570px] mt-4 lg:mt-0 lg:ml-4 rounded-md bg-cover bg-blend-darken text-gray-200 bg-black bg-opacity-50' style={{ backgroundImage: `url(${image3})` }}>
 <div className='text-center mt-11 md:mt-14'>RELIABILITY</div>
-<div className='text-center mt-5'>RELIABILITy perfect soundfor everyone</div>
+<div className='text-center mt-5'>RELIABILITY PERFECT SOUND FOR EVERYONE</div>
 <div className='mt-7 text-center text-green-500'>_ ________</div>
 <p className='pt-7 text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium libero iusto voluptatem eum voluptates fugiat quia odio, culpa et officia.</p>
 
