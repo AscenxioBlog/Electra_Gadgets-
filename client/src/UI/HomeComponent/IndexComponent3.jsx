@@ -41,10 +41,10 @@ function IndexComponent3() {
      
                                 // height='50px'
                                // width = '150px'
-                               backgroundColor = 'limegreen'
+                               backgroundColor = '#FABC3F'
                                label = 'Learn More'
                                borderRadius = '50px'
-                               color = 'white'
+                               color = ''
                                // onClick={()=>alert('hiiii')}
                                 marginTop = '20px'
                                 className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] text-white mt-10 transition-transform duration-300 transform -translate-y-10 group-hover:translate-y-0'
@@ -56,10 +56,10 @@ function IndexComponent3() {
      
                               height='60px'
                               // width = '150px'
-                              backgroundColor = 'black'
-                              label = 'ADD TO CART'
+                              backgroundColor = '#FABC3F'
+                              label = 'Add to cart'
                               borderRadius = '50px'
-                              color = 'white'
+                              color = ''
                               // onClick={()=>alert('hiiii')}
                               marginTop = '20px'
                               className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] mt-2 text-white transition-transform duration-300 transform translate-y-10 group-hover:translate-y-0'
@@ -112,10 +112,10 @@ function IndexComponent3() {
                 
                                            // height='50px'
                                           // width = '150px'
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
                                           borderRadius = '50px'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] text-white mt-10 transition-transform duration-300 transform -translate-y-10 group-hover:translate-y-0'
@@ -127,10 +127,10 @@ function IndexComponent3() {
                 
                                          height='60px'
                                          // width = '150px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                          borderRadius = '50px'
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] mt-2 text-white transition-transform duration-300 transform translate-y-10 group-hover:translate-y-0'
@@ -190,10 +190,10 @@ function IndexComponent3() {
                 
                                            // height='50px'
                                           // width = '150px'
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
                                           borderRadius = '50px'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] text-white mt-10 transition-transform duration-300 transform -translate-y-10 group-hover:translate-y-0'
@@ -205,10 +205,10 @@ function IndexComponent3() {
                 
                                          height='60px'
                                          // width = '150px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                          borderRadius = '50px'
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] mt-2 text-white transition-transform duration-300 transform translate-y-10 group-hover:translate-y-0'
@@ -261,10 +261,10 @@ function IndexComponent3() {
                 
                                            // height='50px'
                                           // width = '150px'
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
                                           borderRadius = '50px'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] text-white mt-10 transition-transform duration-300 transform -translate-y-10 group-hover:translate-y-0'
@@ -276,10 +276,10 @@ function IndexComponent3() {
                 
                                          height='60px'
                                          // width = '150px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                          borderRadius = '50px'
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[50px] w-[260px] md:w-[150px] lg:w-[150px] mt-2 text-white transition-transform duration-300 transform translate-y-10 group-hover:translate-y-0'

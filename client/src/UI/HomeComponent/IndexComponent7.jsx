@@ -1,5 +1,5 @@
 import React from 'react'
- import image1 from './TheImages/headphone3.webp'
+//  import image1 from './TheImages/headphone3.webp'
  import image2 from './TheImages/image3.jpg'
  import image3 from './TheImages/image4.jpg'
  import image4 from './TheImages/image5.jpg'
@@ -19,7 +19,7 @@ function IndexComponent7() {
         
 
 
-        <div className='min-h-[136vh] md:h-[80vh] lg:h-[90vh]  lg:mr-14 lg:ml-14  bg-cover bg-blend-darken bg-black bg-opacity-30 lg:w-full' style={{ backgroundImage: `url(${image1})` }} >   
+        <div className='min-h-[136vh] md:h-[80vh] lg:h-[90vh]  lg:mr-14 lg:ml-14  bg-cover bg-blend-darken bg-black bg-opacity-30 lg:w-full' style={{ backgroundImage: `url(${image4})` }} >   
   
                 
                 <div className='grid md:grid-cols-[30%_70%] lg:grid-cols-[40%_60%] h-[80vh]'>
@@ -85,12 +85,12 @@ function IndexComponent7() {
                        <CustomButton
                         // height='55px'
                         // width = '150px'
-                        backgroundColor = 'white'
+                         backgroundColor = '#FABC3F'
                         label = 'Learn More'
                         borderRadius = '50px'
                         // onClick={()=>alert('hiiii')}
                         marginTop = 'px'
-                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px] '
+                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
 
                     />
                     
@@ -98,13 +98,13 @@ function IndexComponent7() {
                     <CustomButton
                         // height='55px'
                         // width = '150px'
-                        backgroundColor = 'black'
+                          backgroundColor = '#FABC3F'
                         label = 'Learn More'
-                        color= 'white'
+                        color= 'black'
                         borderRadius = '50px'
                         // onClick={()=>alert('hiiii')}
                         marginTop = 'px'
-                        className='h-[55px] w-[300px] mt-4 md:mt-0 lg:mt-0 md:w-[150px] lg:w-[150px] '
+                        className='h-[55px] w-[300px] mt-4 md:mt-0 lg:mt-0 md:w-[150px] lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
 
                     />
                     

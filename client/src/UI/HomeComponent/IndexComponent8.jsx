@@ -345,7 +345,7 @@ function IndexComponent8() {
 
                       <div className=' relative group lg:hidden'>
           <div className='border-r-2 border-gray-300 '>
-        <div className=''><img src={image5} alt=""  className='h-[230px] ml-[160px] md:ml-[80px] lg:ml-10 lg:mt-14 w-[150px] '/></div>
+        <div className=''><img src={image5} alt="" className='h-[230px] ml-[160px] md:ml-[80px] lg:ml-10 lg:mt-14 w-[150px] '/></div>
         <div className='pl-8'>
                       <div className='text-green-500 text-[0.7rem] text-center pt-7 transform transition-transform duration-300 group-hover:translate-y-[-10px]'>MODERN EDITION</div>
                       <div className='font-bold text-[0.9rem] text-center mt-5 group-hover:text-green-600 transform transition-transform duration-300 group-hover:translate-y-[-10px]'> MODERN BEAT HT</div>

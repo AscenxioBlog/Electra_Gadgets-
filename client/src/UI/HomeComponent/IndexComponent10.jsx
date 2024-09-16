@@ -5,7 +5,7 @@ import CustomButton from '../../ReusableComponent/BtnComponent/CustomBtnComponen
 import CustomInput from '../../ReusableComponent/InputComponent/CustomInput'
 function IndexComponent10() {
   return (
-    <div className='lg:ml-14 mr-5 ml-5 mt-10 lg:mr-14'>
+    <div className='lg:ml-14 mr-5 ml-5 mt-10 lg:mr-16'>
       
 
         <div className='grid md:grid-cols-2 lg:grid-cols-2'>
@@ -42,13 +42,13 @@ function IndexComponent10() {
      
          height='60px'
          // width = '150px'
-         backgroundColor = 'limegreen'
+          backgroundColor = '#FABC3F'
          label = 'Submit'
          borderRadius = '50px'
-         color = 'white'
+         color = 'black'
          // onClick={()=>alert('hiiii')}
          marginTop = '20px'
-         className='h-[60px] w-[150px] md:w-[150px] lg:w-[150px] relative right-[150px] md:right-40 bottom-5 mr-10 text-white'
+         className='h-[60px] w-[150px] md:w-[150px] lg:w-[150px] relative right-[150px] md:right-40 bottom-5 mr-10 hover:shadow-md hover:shadow-[#478CCF]'
 
      />
 </div>

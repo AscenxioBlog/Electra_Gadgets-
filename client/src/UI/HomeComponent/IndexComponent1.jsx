@@ -19,7 +19,7 @@ function IndexComponent1() {
         
 
 
-        <div className='min-h-[136vh] md:h-[80vh] lg:h-[90vh] lg:w-full   lg:mr-14 lg:ml-14  bg-cover bg-blend-darken bg-black bg-opacity-30' style={{ backgroundImage: `url(${image1})` }} >   
+        <div className='min-h-[136vh] md:h-[80vh] lg:h-[90vh] lg:w-full   lg:mr-14 lg:ml-14  bg-cover bg-blend-darken bg-[#478CCF] ' style={{ backgroundImage: `url(${image4})` }} >   
   
                 
                 <div className='grid md:grid-cols-[10fr_4fr] lg:grid-cols-2 h-[80vh]'>
@@ -55,23 +55,33 @@ function IndexComponent1() {
                  
 
 
-                 <div className=' md:flex lg:flex lg:mt-8'>
+                 <div className=' md:flex lg:flex lg:mt-4'>
                   <div className='pt-7 text-gray-100 md:text-[0.9rem] lg:text-[1.1rem]'>  BEST PRICE AT: $250.000</div>
                 
 
-                  <div className='mt-3 md:mt-3 lg:mt-3 grid grid-cols-1 md:flex lg:flex md:ml-10  lg:gap-4 md:ml- lg:ml-10'>
+                  <div className='mt-3 md:mt-3 lg:mt-3 grid grid-cols-1 gap-3 md:flex lg:flex md:ml-10  lg:gap-4 md:ml- lg:ml-10'>
  
                        <CustomButton
-                        backgroundColor = 'white'
+                        backgroundColor = '#FABC3F'
                         label = 'Learn More'
                         borderRadius = '50px'
                         // onClick={()=>alert('hiiii')}
+                        fontWeight = 'bold'
                         marginTop = 'px'
-                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px] '
+                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
 
                     />
                     
-                    <button className='h-14 md:h-14 lg:h-14 w-80 w md:w-36 lg:w-36 mt-3 md:mt-0 lg:mt-0 bg-black text-white rounded-full'>Add to cart</button>
+                   
+                    <CustomButton
+                        backgroundColor = '#FABC3F'
+                        label = 'Add to cart'
+                        borderRadius = '50px'
+                        // onClick={()=>alert('hiiii')}
+                        marginTop = 'px'
+                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
+
+                    />
                     
                   </div> 
 

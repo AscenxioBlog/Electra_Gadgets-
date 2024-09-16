@@ -50,13 +50,13 @@ function IndexComponent4() {
      
          height='60px'
          // width = '150px'
-         backgroundColor = 'limegreen'
+         backgroundColor = '#FABC3F'
          label = 'Learn More'
          borderRadius = '50px'
-         color = 'white'
+         color = 'black'
          // onClick={()=>alert('hiiii')}
          marginTop = '20px'
-         className='h-[60px] w-[300px] md:w-[150px] lg:w-[150px] text-white mt-10'
+         className='h-[60px] w-[300px] md:w-[150px] lg:w-[150px] text-white mt-10 hover:shadow-md hover:shadow-[#478CCF]'
 
      />
 
@@ -65,13 +65,13 @@ function IndexComponent4() {
      
      height='60px'
      // width = '150px'
-     backgroundColor = 'black'
-     label = 'ADD TO CART'
+     backgroundColor = '#FABC3F'
+     label = 'Add to cart'
      borderRadius = '50px'
-     color = 'white'
+     color = 'black'
      // onClick={()=>alert('hiiii')}
      marginTop = '20px'
-     className='h-[60px] w-[300px] md:w-[150px] lg:w-[150px] mt-2 text-white'
+     className='h-[60px] w-[300px] md:w-[150px] lg:w-[150px] mt-2 hover:shadow-md hover:shadow-[#478CCF]'
 
  />
             </div>

@@ -28,12 +28,12 @@ function IndexComponent6() {
          
              // height='55px'
                         // width = '150px'
-                        backgroundColor = 'white'
+                       backgroundColor = '#FABC3F'
                         label = 'Learn More'
                         borderRadius = '50px'
                         // onClick={()=>alert('hiiii')}
                         marginTop = 'px'
-                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px]  mt-9 ml-5'
+                        className='h-[55px] w-[300px] md:w-[150px] lg:w-[150px]  mt-9 ml-5 hover:shadow-md hover:shadow-[#478CCF]'
          />
          </div>
 
@@ -54,13 +54,13 @@ function IndexComponent6() {
          
          // height='55px'
                     // width = '150px'
-                    backgroundColor = 'limegreen'
+                    backgroundColor = '#FABC3F'
                     label = 'Learn More'
                     borderRadius = '50px'
-                    color = 'white'
+                    color = 'black'
                     // onClick={()=>alert('hiiii')}
                     marginTop = 'px'
-                    className='h-[55px] w-[300px] md:w-[150px] text-white font-bold mt-3 ml-7 lg:w-[150px] lg:ml-24'
+                    className='h-[55px] w-[300px] md:w-[150px] text-white font-bold mt-3 ml-7 lg:w-[150px] lg:ml-24 hover:shadow-md hover:shadow-[#478CCF]'
      />
              
                     </div>
@@ -82,14 +82,14 @@ function IndexComponent6() {
          
          // height='55px'
                     // width = '150px'
-                    backgroundColor = 'limegreen'
+                    backgroundColor = '#FABC3F'
                     label = 'Learn More'
                     borderRadius = '50px'
-                    color = 'white'
+                    color = 'black'
                     fontWeight = 'bold'
                     // onClick={()=>alert('hiiii')}
-                    marginTop = 'px'
-                    className='h-[55px] w-[300px] md:w-[150px]  font-bold lg:w-[150px] mt-3 ml-6 lg:ml-24'
+                    marginTop = ''
+                    className='h-[55px] w-[300px] md:w-[150px]  font-bold lg:w-[150px] mt-3 ml-6 lg:ml-24 hover:shadow-md hover:shadow-[#478CCF]'
      />
                     
                     </div>

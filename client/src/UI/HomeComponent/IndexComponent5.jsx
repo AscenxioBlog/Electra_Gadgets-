@@ -46,7 +46,7 @@ function IndexComponent5() {
        
 
         <div className='min-h-[560px] mt-7  border-2 border-r-slate-400  lg:mr-14 lg:ml-14  bg-slate-50 grid md:grid-cols-2 lg:grid-cols-4'>
-              <div className='h-[560px] relative  group border-r-2 border-r-slate-400 bg-slate-50'>
+              <div className='min-h-[560px] relative  group border-r-2 border-r-slate-400 bg-slate-50'>
                 <span className='absolute opacity-0 group-hover:opacity-100 top-[250px] transition-transform duration-300 transform translate-x-0 group-hover:translate-x-5'><FaArrowLeft className='text-gray-600'/></span>
                     <div className='h-8 w-28 mt-3 lg:mt-8 bg-green-400 rounded-full text-center text-white font-bold pl-3'>Best Price</div>
                     <div><img src={image5} alt="" className='h-[250px] w-[160px] mt-4 ml-20'/></div>
@@ -56,7 +56,7 @@ function IndexComponent5() {
                       <div className='font-bold text-[0.9rem] text-center mt-2 group-hover:opacity-100 group-hover:text-green-600   transform transition-transform duration-300 group-hover:translate-y-[-10px]'> MODERN BEAT HT</div>
                       <div>
                       
-                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
+                      <p className='text-[0.9rem] group-hover:opacity-0 lg:mt-7 group-hover:text-green-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
                        
                                <div className='opacity-0 group-hover:opacity-100 hover group-hover:relative  group-hover:bottom-6'>
 
@@ -81,9 +81,9 @@ function IndexComponent5() {
                    
                               <div className=' flex'>
                                        <CustomButton
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[60px] w-[260px] md:w-[150px] lg:w-[160px] text-white  mt-10 transition-transform duration-300 transform translate-x-0 group-hover:translate-x-2'
@@ -95,10 +95,10 @@ function IndexComponent5() {
                 
                                         //  height='60px'
                                          width = '148px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                       
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[60px] w-[260px] md:w-[150px] text-[0.9rem] lg:w-[165px] mt-2 text-white  transition-transform duration-300 transform translate-x-10  group-hover:translate-x-0'
@@ -129,7 +129,7 @@ function IndexComponent5() {
                       <div className='font-bold text-[0.9rem] text-center mt-2 group-hover:opacity-100 group-hover:text-green-600   transform transition-transform duration-300 group-hover:translate-y-[-10px]'> MODERN BEAT HT</div>
                       <div>
                       
-                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
+                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600 mt-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
                        
                                <div className='opacity-0 group-hover:opacity-100 hover group-hover:relative  group-hover:bottom-6'>
 
@@ -154,9 +154,9 @@ function IndexComponent5() {
                    
                               <div className=' flex'>
                                        <CustomButton
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[60px] w-[260px] md:w-[150px] lg:w-[160px] text-white  mt-10 transition-transform duration-300 transform translate-x-0 group-hover:translate-x-2'
@@ -168,10 +168,10 @@ function IndexComponent5() {
                 
                                         //  height='60px'
                                          width = '148px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                       
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[60px] w-[260px] md:w-[150px] text-[0.9rem] lg:w-[165px] mt-2 text-white  transition-transform duration-300 transform translate-x-10  group-hover:translate-x-0'
@@ -203,7 +203,7 @@ function IndexComponent5() {
                       <div className='font-bold text-[0.9rem] text-center mt-2 group-hover:opacity-100 group-hover:text-green-600   transform transition-transform duration-300 group-hover:translate-y-[-10px]'> MODERN BEAT HT</div>
                       <div>
                       
-                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
+                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600 mt-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
                        
                                <div className='opacity-0 group-hover:opacity-100 hover group-hover:relative  group-hover:bottom-6'>
 
@@ -228,9 +228,9 @@ function IndexComponent5() {
                    
                               <div className=' flex'>
                                        <CustomButton
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[60px] w-[260px] md:w-[150px] lg:w-[160px] text-white  mt-10 transition-transform duration-300 transform translate-x-0 group-hover:translate-x-2'
@@ -242,10 +242,10 @@ function IndexComponent5() {
                 
                                         //  height='60px'
                                          width = '148px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                       
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[60px] w-[260px] md:w-[150px] text-[0.9rem] lg:w-[165px] mt-2 text-white  transition-transform duration-300 transform translate-x-10  group-hover:translate-x-0'
@@ -281,7 +281,7 @@ function IndexComponent5() {
                       <div className='font-bold text-[0.9rem] text-center mt-2 group-hover:opacity-100 group-hover:text-green-600   transform transition-transform duration-300 group-hover:translate-y-[-10px]'> MODERN BEAT HT</div>
                       <div>
                       
-                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
+                      <p className='text-[0.9rem] group-hover:opacity-0 group-hover:text-green-600 mt-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, placeat!</p>
                        
                                <div className='opacity-0 group-hover:opacity-100 hover group-hover:relative  group-hover:bottom-6'>
 
@@ -306,9 +306,9 @@ function IndexComponent5() {
                    
                               <div className=' flex'>
                                        <CustomButton
-                                          backgroundColor = 'limegreen'
+                                          backgroundColor = '#FABC3F'
                                           label = 'Learn More'
-                                          color = 'white'
+                                          color = ''
                                           // onClick={()=>alert('hiiii')}
                                            marginTop = '20px'
                                            className='h-[60px] w-[260px] md:w-[150px] lg:w-[160px] text-white  mt-10 transition-transform duration-300 transform translate-x-0 group-hover:translate-x-2'
@@ -320,10 +320,10 @@ function IndexComponent5() {
                 
                                         //  height='60px'
                                          width = '148px'
-                                         backgroundColor = 'black'
-                                         label = 'ADD TO CART'
+                                         backgroundColor = '#FABC3F'
+                                         label = 'Add to cart'
                                       
-                                         color = 'white'
+                                         color = ''
                                          // onClick={()=>alert('hiiii')}
                                          marginTop = '20px'
                                          className='h-[60px] w-[260px] md:w-[150px] text-[0.9rem] lg:w-[165px] mt-2 text-white  transition-transform duration-300 transform translate-x-10  group-hover:translate-x-0'

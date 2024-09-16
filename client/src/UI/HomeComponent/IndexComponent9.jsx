@@ -17,13 +17,13 @@ function IndexComponent9() {
      // className='h-14 md:h-14 lg:h-14 w-80 w md:w-36 lg:w-36 mt-6 bg-white text-black rounded-full'
          height='60px'
          // width = '150px'
-         backgroundColor = 'black'
-         color = ' white'
+          backgroundColor = '#FABC3F'
+         color = ' black'
          label = 'Learn More'
          borderRadius = '50px'
          // onClick={()=>alert('hiiii')}
          marginTop = '20px'
-         className='h-[60px] w-[300px] md:w-[250px] mt-9 lg:w-[150px]'
+         className='h-[60px] w-[300px] md:w-[250px] mt-9 lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
 
      />
      </div>
@@ -42,13 +42,13 @@ function IndexComponent9() {
      // className='h-14 md:h-14 lg:h-14 w-80 w md:w-36 lg:w-36 mt-6 bg-white text-black rounded-full'
          height='60px'
          // width = '150px'
-         backgroundColor = 'black'
-         color = ' white'
+          backgroundColor = '#FABC3F'
+         color = ' black'
          label = 'Learn More'
          borderRadius = '50px'
          // onClick={()=>alert('hiiii')}
          marginTop = '20px'
-         className='h-[60px] w-[300px] md:w-[250px] mt-9 lg:w-[150px]'
+         className='h-[60px] w-[300px] md:w-[250px] mt-9 lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
 
      />
      </div>
@@ -67,13 +67,13 @@ function IndexComponent9() {
      // className='h-14 md:h-14 lg:h-14 w-80 w md:w-36 lg:w-36 mt-6 bg-white text-black rounded-full'
          height='60px'
          // width = '150px'
-         backgroundColor = 'black'
+           backgroundColor = '#FABC3F'
          label = 'Learn More'
          borderRadius = '50px'
          // onClick={()=>alert('hiiii')}
          marginTop = '20px'
-         color = 'white'
-         className='h-[60px] w-[300px] md:w-[250px] mt-9 lg:w-[150px]'
+         color = 'black'
+         className='h-[60px] w-[300px] md:w-[250px] mt-9 lg:w-[150px] hover:shadow-md hover:shadow-[#478CCF]'
 
      />
      </div>
